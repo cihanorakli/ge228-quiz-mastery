@@ -17,6 +17,7 @@ const resultScreen = document.getElementById('result-screen');
 const progressBar = document.getElementById('progress-bar');
 const progressText = document.getElementById('progress-text');
 const wrongCounterEl = document.getElementById('wrong-counter');
+const correctCounterEl = document.getElementById('correct-counter');
 const optionsContainer = document.getElementById('options-container');
 const questionText = document.getElementById('question-text');
 const nextBtn = document.getElementById('next-btn');
@@ -61,6 +62,7 @@ function startQuiz(mode, chapterName = null) {
     
     totalQuestionsCount = filtered.length;
     totalWrongAnswers = 0;
+    totalCorrectAnswers = 0;
     currentBatchIndex = 0;
     
     startBatch(0);
@@ -142,6 +144,8 @@ function handleAnswer(selectedIndex, clickedBtn) {
 function nextQuestion() {
     if (lastAnswerCorrect) {
         queue.shift();
+        totalCorrectAnswers++;
+        updateUI();
     } else {
         const missedQ = queue.shift();
         queue.push(missedQ);
@@ -180,23 +184,18 @@ function startNextBatch() {
 }
 
 function updateProgress() {
-    // Show overall progress
-    let masteredCount = 0;
-    for (let i = 0; i < currentBatchIndex; i++) {
-        masteredCount += allBatches[i].length;
-    }
-    // Questions in current batch are mastered if they are removed from queue
-    const currentBatchMastered = allBatches[currentBatchIndex].length - queue.length;
-    const totalMastered = masteredCount + currentBatchMastered;
+    const batchSize = allBatches[currentBatchIndex].length;
+    const completedInBatch = batchSize - queue.length;
     
-    const progressPercent = (totalMastered / totalQuestionsCount) * 100;
+    const progressPercent = (completedInBatch / batchSize) * 100;
     
     progressBar.style.width = `${progressPercent}%`;
-    progressText.innerText = `${totalMastered} / ${totalQuestionsCount}`;
+    progressText.innerText = `${completedInBatch} / ${batchSize}`;
 }
 
 function updateUI() {
-    wrongCounterEl.innerText = `Toplam Yanlış: ${totalWrongAnswers}`;
+    correctCounterEl.innerText = `Doğru: ${totalCorrectAnswers}`;
+    wrongCounterEl.innerText = `Yanlış: ${totalWrongAnswers}`;
 }
 
 function finishQuiz() {
