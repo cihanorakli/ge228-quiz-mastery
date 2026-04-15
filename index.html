@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cihan Oraklı Hayratı - Test Platformu</title>
+    <meta name="description"
+        content="Yanlış yaptığın soruları en sona ekleyen, öğrenene kadar devam eden interaktif test platformu.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-gradient"></div>
+    <div class="container">
+        <!-- Start Screen -->
+        <section id="start-screen" class="screen active">
+            <div class="glass-card text-center">
+                <h1 class="title">Cihan Oraklı Hayratı</h1>
+                <p class="subtitle">GE 228'den 100 almayan kalmasın.</p>
+                <div class="info-badges">
+                    <span class="badge"><i class="icon-q"></i> 109 Soru</span>
+                    <span class="badge"><i class="icon-stats"></i> Mastery Modu</span>
+                </div>
+                <button id="start-btn" class="btn btn-primary">Başlat</button>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <span id="progress-text">0 / 0</span>
+                </div>
+                <div class="stats">
+                    <span id="wrong-counter">Yanlış: 0</span>
+                </div>
+            </div>
+
+            <div class="glass-card quiz-card">
+                <div id="question-container">
+                    <h2 id="question-text">Soru yükleniyor...</h2>
+                    <div id="options-container" class="options-grid">
+                        <!-- Options will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="screen">
+            <div class="glass-card text-center">
+                <div class="confetti-placeholder">🎉</div>
+                <h1 class="title">Tebrikler!</h1>
+                <p class="subtitle">Tüm soruları başarıyla tamamladın ve hepsini öğrendin.</p>
+                <div class="final-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="final-total">109</span>
+                        <span class="stat-label">Toplam Soru</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="final-wrong">0</span>
+                        <span class="stat-label">Toplam Yanlış</span>
+                    </div>
+                </div>
+                <button id="restart-btn" class="btn btn-secondary">Tekrar Çöz</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
