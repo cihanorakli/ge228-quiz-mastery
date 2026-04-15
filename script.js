@@ -27,22 +27,39 @@ const batchPercent = document.getElementById('batch-percent');
 const nextBatchBtn = document.getElementById('next-batch-btn');
 
 // Initial Load
-document.getElementById('start-btn').addEventListener('click', startQuiz);
+document.querySelectorAll('.btn-category, .btn-primary[data-mode]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const mode = btn.getAttribute('data-mode');
+        const chapter = btn.getAttribute('data-chapter');
+        startQuiz(mode, chapter);
+    });
+});
 document.getElementById('restart-btn').addEventListener('click', () => location.reload());
 document.getElementById('next-batch-btn').addEventListener('click', startNextBatch);
 nextBtn.addEventListener('click', nextQuestion);
 
-function startQuiz() {
-    const shuffled = [...questionsData];
-    shuffleArray(shuffled);
+function startQuiz(mode, chapterName = null) {
+    let filtered = [];
+    let batchSize = 20;
+
+    if (mode === 'chapter') {
+        filtered = questionsData.filter(q => q.chapter === chapterName);
+        batchSize = filtered.length; 
+    } else {
+        // Mixed mode
+        filtered = [...questionsData];
+        batchSize = 40;
+    }
+
+    shuffleArray(filtered);
     
-    // Divide into batches of 20
+    // Divide into batches
     allBatches = [];
-    for (let i = 0; i < shuffled.length; i += 20) {
-        allBatches.push(shuffled.slice(i, i + 20));
+    for (let i = 0; i < filtered.length; i += batchSize) {
+        allBatches.push(filtered.slice(i, i + batchSize));
     }
     
-    totalQuestionsCount = shuffled.length;
+    totalQuestionsCount = filtered.length;
     totalWrongAnswers = 0;
     currentBatchIndex = 0;
     

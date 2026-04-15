@@ -137,6 +137,31 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.selection-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.btn-category {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-white);
+    padding: 12px;
+    font-size: 0.95rem;
+}
+
+.btn-category:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.btn-full {
+    grid-column: span 2;
+    margin-top: 8px;
+}
+
 /* Quiz UI */
 .quiz-header {
     margin-bottom: 24px;
