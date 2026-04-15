@@ -4,6 +4,7 @@ let currentBatchIndex = 0;
 let queue = []; 
 let totalQuestionsCount = 0;
 let totalWrongAnswers = 0;
+let totalCorrectAnswers = 0;
 
 let batchCorrectCount = 0;
 let lastAnswerCorrect = false;

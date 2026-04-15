@@ -1,198 +1,198 @@
-const questionsData = 
-[
+const questionsData = [
   {
-    "question": "Early transoceanic migrations of humans... Which was the last land where humans settled (discovered in 1150 AD)?",
+    "chapter": "Chapter 1",
+    "question": "It was the Phoenician seafarers who made the first long voyages... Who was the great historian and geographer from Halicarnassus?",
     "options": [
-      "Papua New Guinea",
-      "New Zealand",
-      "Greenland",
-      "Hispaniola"
+      "Herodotus - Historiai",
+      "Pausanias",
+      "Anaksimandros",
+      "Hekataios"
     ],
-    "answer": 1,
-    "hint": "Māori",
-    "chapter": "Chapter 1"
+    "answer": 0,
+    "hint": "Historiai"
   },
   {
-    "question": "Phoenician legacy and their alphabet... How many letters was it?",
+    "chapter": "Chapter 1",
+    "question": "Xenophon, in his work ………………………. (Anabasis), describes the Greek legionary warriors...",
+    "options": [
+      "Raid of Ten Thousands",
+      "Return of Ten Thousands",
+      "100 Spartans",
+      "Expedition of Hellenes"
+    ],
+    "answer": 1,
+    "hint": "Anabasis"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "What land is Pytheas supposed to have reached where he described icebergs and the sun rising at midnight?",
+    "options": [
+      "America Newfoundland",
+      "Iceland",
+      "Scotland",
+      "Faroe islands"
+    ],
+    "answer": 1,
+    "hint": "Thule"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "…………………………… was born in Amasya (63 BC). Wrote the 17-book Geographica.",
+    "options": [
+      "Piri Reis",
+      "Ptolemy",
+      "Strabo",
+      "Evliya Çelebi"
+    ],
+    "answer": 2,
+    "hint": "Born in Amasya"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "…………………………… worked for the library of Alexandria (150 AD). Wrote Geography Guide (8 volumes).",
+    "options": [
+      "Ptolemy",
+      "Herodotus",
+      "Hekataios of Miletus",
+      "Lydian Pausanias"
+    ],
+    "answer": 0,
+    "hint": "Almagest author"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "Who produced Tabula Rogeriana, the most advanced medieval world map (1154)?",
+    "options": [
+      "Ibn Battuta",
+      "Mohammed al-Idrisi",
+      "Piri Reis",
+      "Biruni"
+    ],
+    "answer": 1,
+    "hint": "Sicily under King Roger"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "Who was the first great traveller who wrote the 229-chapter work 'The Book of İl Milione'?",
+    "options": [
+      "Evliya Çelebi",
+      "Rusticello",
+      "Marco Polo",
+      "Ibn Battuta"
+    ],
+    "answer": 2,
+    "hint": "Venetian merchant"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "Who is known as the man who travelled the furthest of anyone on Earth, writing 'Rihla'?",
+    "options": [
+      "Ibn Rushd",
+      "Ibn Tufayl",
+      "Ibn Battuta",
+      "Ibn-i Sina"
+    ],
+    "answer": 2,
+    "hint": "From Tangier, Morocco"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "Which of the following cannot be said to have a role as an active culture carrier in early global transfers?",
+    "options": [
+      "traders and shippers",
+      "long-distance travelers",
+      "explorers and immigrant-settlers",
+      "naval fleets"
+    ],
+    "answer": 3,
+    "hint": "Think of military purpose"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "What is the great seafaring city whose fleet explored the first known sea voyage in history (Hanno's voyage)?",
+    "options": [
+      "Phoenician Carthage",
+      "Graecian Syracuse",
+      "Ionian Massalia",
+      "Greek Athens"
+    ],
+    "answer": 0,
+    "hint": "Near present Tunisia"
+  },
+  {
+    "chapter": "Chapter 1",
+    "question": "How many states are there on the coasts of the Greater Mediterranean (excluding Black Sea)?",
     "options": [
       "12",
       "22",
       "32",
-      "42"
+      "44"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "hint": "22 states"
   },
   {
-    "question": "Who was the first to calculate the Earth's approximate size (circumference)?",
+    "chapter": "Chapter 1",
+    "question": "Who evaluated Vespucci's writings in 1504 and named the new continent 'America' in 1507?",
     "options": [
-      "Aristotle",
-      "Eratosthenes",
-      "Ptolemy",
-      "Strabo"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "The author of \"Geographica\" who lived in Rome and was born in Amasya?",
-    "options": [
-      "Ptolemy",
-      "Herodotus",
-      "Strabo",
-      "Al-Biruni"
-    ],
-    "answer": 2,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "Who correctly explained the movements of the earth and the poles to Sultan Mahmud of Ghazni?",
-    "options": [
-      "Ibn Battuta",
-      "Al-Biruni",
-      "Al-Idrisi",
-      "Marco Polo"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "The creator of \"Tabula Rogeriana\", the most accurate medieval world map?",
-    "options": [
-      "Marco Polo",
-      "Ibn Battuta",
-      "Al-Idrisi",
-      "Zheng He"
-    ],
-    "answer": 2,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "Venetian trader who served Kublai Khan in China for many years?",
-    "options": [
-      "Ibn Battuta",
-      "Marco Polo",
-      "Christopher Columbus",
-      "Vasco da Gama"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "Moroccan judge (qadi) who visited every corner of Asia and Africa (wrote \"Rihla\")?",
-    "options": [
-      "Ibn Battuta",
-      "Marco Polo",
-      "Al-Idrisi",
-      "Zheng He"
+      "Martin Waldseemüller",
+      "Piri Reis",
+      "Nunez de Balboa",
+      "Juan de la Cosa"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "hint": "German cartographer"
   },
   {
-    "question": "Which empire liberated 'Africa-Maghreb' from the Vandals in 533-534 AD?",
+    "chapter": "Chapter 1",
+    "question": "Who was the author of the first novel in which the bourgeois individual was a hero (Robinson Crusoe)?",
     "options": [
-      "Roman Empire",
-      "Eastern Roman (Byzantine)",
-      "Ottoman",
-      "Persian"
+      "Robert Louis Stevenson",
+      "Daniel Defoe",
+      "Ibn Tufeyl",
+      "Jonathan Swift"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "hint": "Robinson Crusoe"
   },
   {
-    "question": "The transition to the \"New Roman/Byzantine\" period is associated with which Emperor (610 AD)?",
+    "chapter": "Chapter 1",
+    "question": "Which statement contains correct information regarding the Colombian exchange?",
     "options": [
-      "Heraclius",
-      "Justinian",
-      "Constantine",
-      "Augustus"
+      "Fatih Sultan Mehmet loved tomatoes",
+      "Tobacco seedlings in Virginia were from Samsun",
+      "Coffee was common for Brazilians before whites",
+      "Native Americans lacked horses before whites arrived"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "answer": 3,
+    "hint": "Horses were introduced"
   },
   {
-    "question": "The Han Empire in China traded silks with which powers?",
+    "chapter": "Chapter 1",
+    "question": "Which Kingdom of Lisbon was founded in the heritage of Islamic Andalusia and started overseas trade exploration (1415-1460)?",
     "options": [
-      "Vikings",
-      "Aztecs",
-      "Phoenicians and Romans",
-      "Mongols"
+      "Holy Roman-German",
+      "Holy Roman-Frank",
+      "Spain",
+      "Portugal"
     ],
-    "answer": 2,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "answer": 3,
+    "hint": "Lisbon"
   },
   {
-    "question": "The city of Rome was sacked in 410 AD by which tribe?",
+    "chapter": "Chapter 1",
+    "question": "What do you call the transportation of plant and animal species between continents through exploration?",
     "options": [
-      "Huns",
-      "Visigoths",
-      "Vandals",
-      "Franks"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "Who led the Huns and crushed the Goths around 450 AD?",
-    "options": [
-      "Genghis Khan",
-      "Attila",
-      "Tamerlane",
-      "Alaric"
+      "New environmental facts",
+      "The Colombian exchange",
+      "Foreign exchange",
+      "The world trade system"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "hint": "Named after Columbus"
   },
   {
-    "question": "The Western Roman Empire came to an end in which year?",
-    "options": [
-      "410",
-      "476",
-      "533",
-      "1453"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "Which commander liberated Italy from the Ostrogoths (535-555)?",
-    "options": [
-      "Caesar",
-      "Belisarius",
-      "Pompey",
-      "Scipio"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
-    "question": "What do you call the transportation of species between the Old and New World during the age of discovery?",
-    "options": [
-      "Global Trade",
-      "The Colombian Exchange",
-      "Maritime Silk Road",
-      "Spice Trade"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
-  },
-  {
+    "chapter": "Chapter 1",
     "question": "What is the second most spoken mother tongue in the world after Chinese?",
     "options": [
       "English",
@@ -201,323 +201,323 @@ const questionsData =
       "Bengali"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Chapter 1"
+    "hint": "Widely spoken in Latin America"
   },
   {
-    "question": "Which language family does Turkish belong to?",
+    "chapter": "Chapter 2",
+    "question": "What is the most widely spoken native language (mother tongue) in the world?",
     "options": [
-      "Ural-Altaic",
-      "Indo-European",
-      "Afro-Asiatic",
-      "Sino-Tibetan"
+      "Mandarin (Putonghua)",
+      "Wu",
+      "Min Nan",
+      "Yue"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Chinese standard"
   },
   {
-    "question": "The most widely spoken language as a 'lingua franca' today?",
+    "chapter": "Chapter 2",
+    "question": "What is the sub-continental federal state that is multilingual (450 languages) and governed by a pluralistic parliament?",
     "options": [
-      "English",
-      "French",
-      "Spanish",
-      "Chinese"
+      "Indiana",
+      "Indochina",
+      "India",
+      "Indonesia"
+    ],
+    "answer": 2,
+    "hint": "New Delhi"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Arabic, Aramaic, Hebrew and Abyssinian belong to which language group?",
+    "options": [
+      "Egyptian",
+      "Semitic",
+      "The Mesopotamian",
+      "Mashreq"
+    ],
+    "answer": 1,
+    "hint": "Middle Eastern family"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Which are the 2nd and 7th most spoken mother tongues according to the Ethnologue list?",
+    "options": [
+      "2nd French - 7th Spanish",
+      "2nd German - 7th French",
+      "2nd Spanish - 7th Italian",
+      "2nd Spanish - 7th Portuguese"
+    ],
+    "answer": 3,
+    "hint": "Portuguese is 7th/8th"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Which alphabet do Orthodox Slavs use?",
+    "options": [
+      "Cyrillic",
+      "Runic",
+      "Gothic",
+      "Greek"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Created by St. Cyril"
   },
   {
-    "question": "Which language has the most native speakers?",
+    "chapter": "Chapter 2",
+    "question": "Which is the most populous Muslim country in the world, speaking Bahasa?",
     "options": [
-      "Mandarin Chinese",
-      "English",
-      "Hindi",
-      "Spanish"
+      "Bangladesh",
+      "Malaysia",
+      "Singapore",
+      "Indonesia"
+    ],
+    "answer": 3,
+    "hint": "Jakarta"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "What is the most widely spoken native and official language of the Philippines?",
+    "options": [
+      "Filipino Tagalog",
+      "Manila dialect",
+      "Malaya dialect",
+      "Pacific Pigeon"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Tagalog based"
   },
   {
-    "question": "Language used by the Roman Empire and still used in scientific names?",
+    "chapter": "Chapter 2",
+    "question": "Which language in Central Asia is NOT a Turkic language, but belongs to the Persian group?",
     "options": [
-      "Latin",
-      "Greek",
-      "Sanskrit",
-      "Aramaic"
+      "Uzbek",
+      "Kyrgyz",
+      "Kazakh",
+      "Tajik"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 3,
+    "hint": "Spoken in Dushanbe"
   },
   {
-    "question": "Which branch of Indo-European includes Spanish, French, and Italian?",
+    "chapter": "Chapter 2",
+    "question": "Which language is the third most widely adopted official language in the international community?",
     "options": [
-      "Romance",
-      "Germanic",
-      "Slavic",
-      "Celtic"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "The sacred language of the Vedas and Hinduism?",
-    "options": [
-      "Sanskrit",
-      "Pali",
-      "Hindi",
-      "Tamil"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "Which language family includes Arabic and Hebrew?",
-    "options": [
-      "Afro-Asiatic / Semitic",
-      "Indo-European",
-      "Uralic",
-      "Dravidian"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "Official language of Brazil?",
-    "options": [
-      "Portuguese",
-      "Spanish",
-      "French",
-      "Dutch"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "Language family of Finnish and Hungarian?",
-    "options": [
-      "Uralic",
-      "Altaic",
-      "Indo-European",
-      "Afro-Asiatic"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "Language of the Aztecs?",
-    "options": [
-      "Nahuatl",
-      "Quechua",
-      "Maya",
-      "Aymara"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "Revived language of Israel?",
-    "options": [
-      "Hebrew",
+      "Avestan-Persian",
       "Arabic",
-      "Yiddish",
-      "Aramaic"
+      "Urdu-Hindi",
+      "Roman (Latin)"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "Language of the Quran"
   },
   {
-    "question": "Language spoken by the most countries as an official language?",
+    "chapter": "Chapter 2",
+    "question": "In alphabetic writing, what are the symbols representing units of sound called?",
     "options": [
-      "English",
-      "French",
-      "Spanish",
-      "Arabic"
+      "phoneme",
+      "diphtong",
+      "accent",
+      "dialect"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Sound unit"
   },
   {
-    "question": "In which city of Palestine is the symbolic shrine of the 'ancestor prophet' (Abraham)?",
+    "chapter": "Chapter 2",
+    "question": "Which of the following is the official language of Pakistan?",
     "options": [
-      "Hebron (El-Halil)",
-      "Nazareth",
-      "Jerusalem",
-      "Bethlehem"
+      "Sindhi",
+      "Pakistani",
+      "Urdu",
+      "Punjabi-Lahnda"
+    ],
+    "answer": 2,
+    "hint": "Hindustani variant"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "What is the source of the standard language in Spanish, from the central plateau?",
+    "options": [
+      "Galician",
+      "Castilian",
+      "Valencian",
+      "Aragones"
+    ],
+    "answer": 1,
+    "hint": "Castile region"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Which religion is the comprehensive and detailed subcontinental common cultural religion specific to the Indian world?",
+    "options": [
+      "Sikhism",
+      "Hinduism (Brahmanism)",
+      "Zen Buddhism",
+      "Jainism"
+    ],
+    "answer": 1,
+    "hint": "Vedic roots"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Which nature-centered belief belongs specifically to Japan?",
+    "options": [
+      "Japan (Shintoism)",
+      "China",
+      "Indonesia",
+      "North/South Korea"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Way of the gods"
   },
   {
-    "question": "The oldest of the major monotheistic religions?",
+    "chapter": "Chapter 2",
+    "question": "In which country is the Dalai Lama the head of the Buddhist faith?",
     "options": [
-      "Judaism",
-      "Christianity",
-      "Islam",
-      "Zoroastrianism"
+      "Vietnam",
+      "Tibet",
+      "Japan",
+      "Korea"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "Lhasa"
   },
   {
-    "question": "The holiest city for Muslims?",
+    "chapter": "Chapter 2",
+    "question": "What is the meaning of the words: 'Qur’an' and 'Gospel/Evangelium'?",
     "options": [
+      "Holy Whisper / Pearls",
+      "Establish order / Advice",
+      "Collect and read / The good news",
+      "Unique Book / Last will"
+    ],
+    "answer": 2,
+    "hint": "Literally: recite and good news"
+  },
+  {
+    "chapter": "Chapter 2",
+    "question": "Where is the tomb (burial site) of the Prophet Muhammad located?",
+    "options": [
+      "Riyadh",
       "Mecca",
       "Medina",
-      "Jerusalem",
-      "Cairo"
+      "Hebron"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 2,
+    "hint": "Al-Masjid an-Nabawi"
   },
   {
-    "question": "The main religion of India?",
+    "chapter": "Chapter 2",
+    "question": "Which Orthodox patriarchate is considered 'the first among equals'?",
     "options": [
-      "Hinduism",
-      "Buddhism",
-      "Islam",
-      "Sikhism"
+      "Istanbul Fener Rom Patriarchate",
+      "Alexandria Patriarchate",
+      "Russia Patriarchate",
+      "Jerusalem Patriarchate"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "hint": "Ecumenical Patriarchate"
   },
   {
-    "question": "Who is the founder of Buddhism?",
+    "chapter": "Chapter 2",
+    "question": "Which major Asian society became followers of the Roman Catholic Church due to Spanish colonialism?",
     "options": [
-      "Siddhartha Gautama",
-      "Mahavira",
-      "Confucius",
-      "Laozi"
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "South East Asia"
   },
   {
-    "question": "Which religion follows the 'Five Pillars'?",
+    "chapter": "Chapter 2",
+    "question": "What is the worship involving seven rotations around the Kaaba?",
     "options": [
-      "Islam",
-      "Christianity",
-      "Judaism",
-      "Hinduism"
+      "Tawaf / Nabawi",
+      "Hajj / Kaaba",
+      "Holy Visit",
+      "Eid al-Adha"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "Pilgrimage"
   },
   {
-    "question": "The largest branch of Christianity?",
+    "chapter": "Chapter 2",
+    "question": "What is the most powerful church in all the Nordic countries (Sweden, Norway, etc.)?",
     "options": [
-      "Roman Catholicism",
-      "Protestantism",
-      "Eastern Orthodoxy",
-      "Anglicanism"
+      "Calvinistic",
+      "Evangelical Lutheran",
+      "Presbyterian",
+      "Free Baptist"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "Martin Luther's reform"
   },
   {
-    "question": "Shintoism is native to which country?",
+    "chapter": "Chapter 2",
+    "question": "Which country is home to the majority of Copts (the largest Christian community using Arabic)?",
     "options": [
-      "Japan",
-      "China",
-      "Korea",
-      "Vietnam"
+      "Lebanon",
+      "Egypt",
+      "Palestine",
+      "Syria"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 1,
+    "hint": "Alexandria center"
   },
   {
-    "question": "Where did Sikhism originate?",
+    "chapter": "Chapter 3",
+    "question": "What is the story behind the name “Europe”?",
     "options": [
-      "Punjab/India",
-      "Tibet",
-      "Sri Lanka",
-      "Nepal"
+      "Eureka!",
+      "First man from Africa",
+      "Anatolia means East / Europe West",
+      "Phoenician woman abducted to Crete"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
+    "answer": 3,
+    "hint": "Daughter of Agenor"
   },
   {
-    "question": "Holy book of Judaism?",
+    "chapter": "Chapter 3",
+    "question": "Which name was mistakenly attributed to the Romani people because they came via Egypt?",
     "options": [
-      "Torah/Tanakh",
-      "Quran",
-      "Bible",
-      "Vedas"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 2"
-  },
-  {
-    "question": "The name 'Europe' is linked to which mythological figure?",
-    "options": [
-      "A Phoenician woman abducted by Zeus to Crete.",
-      "A Greek goddess",
-      "A Roman queen",
-      "A Viking maiden"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
-  },
-  {
-    "question": "Which name was mistakenly given to Romans (Gypsies) because they came via Egypt?",
-    "options": [
-      "Gypsy (Coptic)",
       "Gitane",
-      "Zingaro",
-      "Manouch"
+      "Calderash",
+      "Manouch-Sinti",
+      "Gypsy (Coptic)"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 3,
+    "hint": "Little Egypt"
   },
   {
-    "question": "Which group is NOT among the 11 royal European countries?",
+    "chapter": "Chapter 3",
+    "question": "Which group of countries is NOT among the 11 royal European countries?",
     "options": [
+      "Sweden, Norway, Denmark",
+      "Netherland, Belgium, Luxembourg",
       "Ireland, Finland, Georgia",
-      "Sweden, Norway",
-      "UK, Spain",
-      "Belgium, Netherlands"
+      "UK, Spain, Andorra"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 2,
+    "hint": "Republics"
   },
   {
-    "question": "How many independent sovereign states are in Europe and how many are in the EU?",
+    "chapter": "Chapter 3",
+    "question": "How many states are in Europe and how many are full members of the EU?",
     "options": [
-      "50 / 27",
-      "195 / 51",
-      "57 / 28",
-      "100 / 50"
+      "195 // 51",
+      "50 // 27",
+      "57 // 28",
+      "100 // 50"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 1,
+    "hint": "Current counts"
   },
   {
-    "question": "Where is the Council of Europe's headquarters located?",
+    "chapter": "Chapter 3",
+    "question": "Where are the Council of Europe's headquarters located?",
     "options": [
       "Strasbourg",
       "Brussels",
@@ -525,275 +525,275 @@ const questionsData =
       "Vienna"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "City in France near German border"
   },
   {
-    "question": "Which binding legal agreement was set up by the Council of Europe?",
+    "chapter": "Chapter 3",
+    "question": "What is the binding legal agreement established by the Council of Europe to protect human rights?",
     "options": [
-      "The European Convention on Human Rights",
-      "Treaty of Versailles",
-      "Magna Carta",
-      "EU Constitution"
+      "UN Declaration",
+      "European Convention on Human Rights",
+      "International Court of Justice",
+      "OSCE"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 1,
+    "hint": "ECHR"
   },
   {
-    "question": "Which northern peoples are NOT from the sailor Viking group?",
+    "chapter": "Chapter 3",
+    "question": "Which northern people are NOT from the sailor Vikings, but Ugric languages?",
     "options": [
-      "Finns and Saami (Lapps)",
+      "Finns and Saami",
       "Swedes",
       "Norwegians",
-      "Danes"
+      "Danish"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Uralic family"
   },
   {
+    "chapter": "Chapter 3",
     "question": "What is the approximate population of Europe?",
     "options": [
+      "~ 850 billion",
+      "~ 8.5 billion",
       "~ 850 million",
-      "~ 500 million",
-      "~ 1.2 billion",
-      "~ 300 million"
+      "~ 85 million"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 2,
+    "hint": "Less than 1 billion"
   },
   {
-    "question": "Which group has no overseas cities or territories?",
+    "chapter": "Chapter 3",
+    "question": "Which group has NOT any city and territory overseas after the colonial era?",
     "options": [
-      "Italy and Germany",
-      "Spain",
-      "Denmark",
-      "France"
+      "Portugal/Spain",
+      "England/Denmark",
+      "France/Netherlands",
+      "Italy/Germany"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 3,
+    "hint": "No overseas department"
   },
   {
+    "chapter": "Chapter 3",
     "question": "Which group was NOT among the Celtic peoples of the British Isles?",
     "options": [
-      "Anglo-Saxon",
       "Gaelic",
       "Welsh",
-      "Cornish"
+      "Anglo-Saxon",
+      "Breton"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 2,
+    "hint": "Germanic tribes"
   },
   {
-    "question": "Which Eastern European country has a deep Catholic tradition (elected a Polish Pope)?",
+    "chapter": "Chapter 3",
+    "question": "Which Eastern European country has a deep-rooted Catholic tradition and elected the first non-Italian Pope?",
     "options": [
+      "Slovakia",
+      "Slovenia",
       "Poland",
-      "Russia",
-      "Bulgaria",
-      "Ukraine"
+      "Croatia"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 2,
+    "hint": "John Paul II"
   },
   {
-    "question": "In which two countries is the native Muslim Turkic population very high?",
+    "chapter": "Chapter 3",
+    "question": "In which countries is the native Muslim population very high (15% and 12%)?",
     "options": [
-      "Russia and Bulgaria",
-      "France and Germany",
-      "Greece and Italy",
-      "Spain and Portugal"
+      "Federation of Russia and Bulgaria",
+      "Denmark and Belgium",
+      "Albania and Bosnia-Herzegovina",
+      "France and England"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Balkan/Eurasia neighbors"
   },
   {
-    "question": "Which country has the largest population (7.5m) of 'immigrant origin' in Europe?",
+    "chapter": "Chapter 3",
+    "question": "Which European country has the largest population of 'immigrant origin' (7.5 million)?",
     "options": [
       "France",
-      "Germany",
-      "UK",
-      "Italy"
+      "Poland",
+      "United Kingdom",
+      "Turkey"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Paris context"
   },
   {
-    "question": "Surinamese and Moluccans are citizens of which European country?",
+    "chapter": "Chapter 3",
+    "question": "Surinamese and Moluccans moving to take advantage of former colonial states primarily went to which country?",
     "options": [
-      "The Netherlands",
       "Belgium",
-      "France",
+      "The Netherlands",
+      "England",
       "Portugal"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 1,
+    "hint": "Amsterdam context"
   },
   {
-    "question": "In which city was the first rule of law and democratic social life (Magna Carta) shaped?",
+    "chapter": "Chapter 3",
+    "question": "What city's history involves Magna Carta, industrial society growth, and was the largest in Europe until Istanbul grew?",
     "options": [
-      "London",
       "Paris",
-      "Rome",
-      "Athens"
+      "Brussels",
+      "London",
+      "Amsterdam"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 2,
+    "hint": "Thames river"
   },
   {
-    "question": "Which Cathedral dome was the tallest building in London until 1962?",
+    "chapter": "Chapter 3",
+    "question": "What is the center of the Episcopal of London with a magnificent dome (111m high)?",
     "options": [
       "St Paul Anglican",
       "Westminster Abbey",
-      "Canterbury Cathedral",
-      "York Minster"
+      "Windsor Castle",
+      "James’s Catholic"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Christopher Wren"
   },
   {
-    "question": "Which group is NOT on the Baltic Sea coast?",
+    "chapter": "Chapter 3",
+    "question": "Which group of countries is NOT on the Baltic Sea coast?",
     "options": [
-      "Norway and Iceland",
-      "Sweden and Denmark",
-      "Poland and Germany",
-      "Estonia and Latvia"
+      "Latvia/Estonia",
+      "Finland/Sweden",
+      "Denmark",
+      "Norway/Iceland"
+    ],
+    "answer": 3,
+    "hint": "Atlantic/North Sea focus"
+  },
+  {
+    "chapter": "Chapter 3",
+    "question": "Which country is a member of the Council of Europe but not the EU, and has a parliamentary presidential authoritarian system?",
+    "options": [
+      "Poland",
+      "France",
+      "Belarus",
+      "Russian Federation"
+    ],
+    "answer": 3,
+    "hint": "Moscow"
+  },
+  {
+    "chapter": "Chapter 3",
+    "question": "Which port cities are in Southern Europe but NOT on the Mediterranean coast?",
+    "options": [
+      "Valencia/Barcelona",
+      "Genoa/Naples",
+      "Lisbon/Porto",
+      "Monaco/Marseille"
+    ],
+    "answer": 2,
+    "hint": "Atlantic coast"
+  },
+  {
+    "chapter": "Chapter 3",
+    "question": "Which identity is associated with the struggle for Free Ireland and St. Patrick's Day?",
+    "options": [
+      "Republican Catholic",
+      "Free Irish",
+      "Revolutionary Celtic",
+      "Celtic Eire"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "St. Patrick's color"
   },
   {
-    "question": "The name 'Netherland' refers to what geographical feature?",
+    "chapter": "Chapter 3",
+    "question": "Which group of countries do NOT share red-blue-white striped flags?",
     "options": [
-      "Low lands (below sea level)",
-      "High mountains",
-      "Volcanic islands",
-      "Dense forests"
+      "Czech/Slovakia",
+      "Lithuania/Estonia",
+      "Netherlands/Luxembourg",
+      "France/Russia"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 1,
+    "hint": "Green and Black"
   },
   {
-    "question": "Where is the 'Place de la Concorde', a symbol of the French Revolution, located?",
+    "chapter": "Chapter 3",
+    "question": "Which state is located in Basarabia as a neighboring state of Romania, sharing similar culture and language?",
     "options": [
-      "Paris",
-      "Marseille",
-      "Lyon",
-      "Bordeaux"
+      "Dnestry Autonomous",
+      "Moldova",
+      "East Prut",
+      "Dobrogea"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 1,
+    "hint": "Chisinau"
   },
   {
-    "question": "Which city is home to the famous Gothic cathedral on the Rhine?",
+    "chapter": "Chapter 3",
+    "question": "What is the capital of Slovakia, near Vienna?",
     "options": [
-      "Cologne",
-      "Berlin",
-      "Munich",
-      "Hamburg"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
-  },
-  {
-    "question": "Which city is known as the 'Pearl of the Adriatic'?",
-    "options": [
+      "Ljubljana",
       "Dubrovnik",
-      "Venice",
-      "Split",
-      "Kotor"
+      "Zagreb",
+      "Bratislava"
     ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "answer": 3,
+    "hint": "Formerly Pressburg"
   },
   {
-    "question": "The European Central Bank is located in which city?",
+    "chapter": "Chapter 3",
+    "question": "What is the major ethnic group in Belgium (59%) that speaks Flemish/Dutch?",
     "options": [
-      "Frankfurt",
-      "Cologne",
-      "Berlin",
-      "Munich"
+      "Flemings (Vlaams)",
+      "Liege",
+      "Frisans",
+      "Antwerpen burghers"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Flanders"
   },
   {
-    "question": "Which microstate is located in the Pyrenees between France and Spain?",
+    "chapter": "Chapter 3",
+    "question": "In which countries are Bavaria (Bayern) and Bohemia located?",
     "options": [
-      "Andorra",
-      "Monaco",
-      "San Marino",
-      "Liechtenstein"
+      "Germany-Czech Republic",
+      "Poland-Austria",
+      "Germany-Austria",
+      "Slovakia-Poland"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Munich and Prague"
   },
   {
-    "question": "Sardinia and Corsica belong to which countries respectively?",
+    "chapter": "Chapter 4",
+    "question": "What are the Chinese words for China, Chinese people, and Standard language?",
     "options": [
-      "Italy - France",
-      "Spain - France",
-      "Italy - Spain",
-      "Greece - Italy"
+      "Chonggua – Han – Putonghua",
+      "Canton – Guangdong – Yue",
+      "Yangtze – Shanghai - Wu",
+      "Fujian+Taiwan – Min"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
+    "hint": "Mandarin"
   },
   {
-    "question": "Which country is known as the 'Roof of Europe' and is famous for neutrality?",
-    "options": [
-      "Switzerland",
-      "Austria",
-      "Sweden",
-      "Norway"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Chapter 3"
-  },
-  {
-    "question": "What are the names the Chinese give to their country, their people, and their language?",
-    "options": [
-      "Chonggua – Han – Putonghua (Mandarin)",
-      "Canton – Guangdong – Yue-Cantonese",
-      "Yangtze – Shanghai - Wu dialect",
-      "Fujian+Taiwan – Min dialect + Taiwanese"
-    ],
-    "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
-  },
-  {
-    "question": "Which federal country, known as a \"subcontinent,\" has been governed by a continuous pluralistic parliamentary regime since its founding and has 22 official languages?",
+    "chapter": "Chapter 4",
+    "question": "Which Asian country has a pluralist parliamentary regime since its independence and 22 official languages?",
     "options": [
       "Indonesia",
       "Indochina",
       "India",
-      "West Indies Federation"
+      "West Indies"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "World's largest democracy"
   },
   {
-    "question": "What is the original Chinese name for the Great Wall of China, which means \"long wall\"?",
+    "chapter": "Chapter 4",
+    "question": "What is the original name of the Great Wall of China, meaning 'long wall'?",
     "options": [
       "The Great Wall",
       "Si lu",
@@ -801,35 +801,35 @@ const questionsData =
       "Chang-Cheng"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Pinyin: Changcheng"
   },
   {
-    "question": "What is the name of the ancient imperial center near Shiraz, Iran, built by Persian kings?",
+    "chapter": "Chapter 4",
+    "question": "What is the name of the ancient imperial administrative centre of Persia near Shiraz?",
     "options": [
-      "Qom",
+      "Kum",
       "Isfahan",
       "Persepolis",
-      "Elam"
+      "Elâm"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "City of Persians"
   },
   {
-    "question": "What is the name of the temple complex that was the center of the ancient Khmer Empire and is featured on the Cambodian flag?",
+    "chapter": "Chapter 4",
+    "question": "In which country are the temples of Angkor Wat located?",
     "options": [
-      "Angkor Wat",
+      "Cambodia",
       "Thailand",
       "Sri Lanka",
       "Laos"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Khmer Empire"
   },
   {
-    "question": "Which city served as the historical capital of the Japanese Empire from the 8th to the 19th century and is known for the 1997 Climate Change protocol?",
+    "chapter": "Chapter 4",
+    "question": "What is the historical capital of the Japanese Empire (8th-19th century) known for wooden structures?",
     "options": [
       "Kyoto",
       "Tokyo",
@@ -837,23 +837,23 @@ const questionsData =
       "Osaka"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Formerly Miyako"
   },
   {
-    "question": "Which island country is mentioned as \"Serendip\" in One Thousand and One Nights and is home to the \"Golden Temple\" caves?",
+    "chapter": "Chapter 4",
+    "question": "Which island is referred to as Serendip or Ceylon in the 'Tales of Thousand and One Nights'?",
     "options": [
-      "Socotra (Yemen)",
+      "Socotra",
       "Sri Lanka",
       "Maldives",
       "East Timor"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "In the Indian Ocean"
   },
   {
-    "question": "What is the largest and most populous island of Japan?",
+    "chapter": "Chapter 4",
+    "question": "Which of the four major Japanese islands is the largest and most populous (home to Tokyo)?",
     "options": [
       "Honshu",
       "Hokkaido",
@@ -861,23 +861,23 @@ const questionsData =
       "Kyushu"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Main island"
   },
   {
-    "question": "What is the name of the world's longest undersea railway tunnel connecting the islands of Honshu and Hokkaido?",
+    "chapter": "Chapter 4",
+    "question": "What is the name of the longest railway tunnel under the sea (~54km) linking Honshu and Hokkaido?",
     "options": [
-      "Gotthard",
-      "Seikan",
-      "Tokyo Bay Aqua-Line",
-      "Laerdal"
+      "Gotthard Base",
+      "The Seikan Tunnel",
+      "Tokyo Bay Aqua",
+      "Laerdal Tunnel"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Seikan"
   },
   {
-    "question": "Which Himalayan country, with its capital in Kathmandu, is home to Mount Everest?",
+    "chapter": "Chapter 4",
+    "question": "Which country is located between China and India and is home to Mount Everest?",
     "options": [
       "Nepal",
       "Bhutan",
@@ -885,35 +885,35 @@ const questionsData =
       "Sikkim"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Kathmandu"
   },
   {
-    "question": "Which of the following organizations is Turkey NOT a member of?",
+    "chapter": "Chapter 4",
+    "question": "Turkey is NOT a member of which organization?",
     "options": [
-      "COE (Council of Europe)",
-      "OIC (Organization of Islamic Cooperation)",
-      "UN (United Nations)",
+      "EC (EU)",
+      "OIC",
+      "UN",
       "ASEAN"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Southeast Asia association"
   },
   {
-    "question": "Which South Pacific country is called \"Aotearoa\" (land of the long white cloud) by its indigenous people, the Maori?",
+    "chapter": "Chapter 4",
+    "question": "What is the name of the 'First People' and the country known as Aotearoa (land of long white clouds)?",
     "options": [
       "New Zealand – Maoris",
-      "New Caledonia – Kanaks",
-      "Australia – Aborigines",
+      "New Caledonia – Canacs",
+      "Australia – Aboriginals",
       "Fiji – Indians"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Kiwi country"
   },
   {
-    "question": "Which Asian country is referred to as \"Little Japan\" due to its high industrial production but lags behind in workers' and women's rights?",
+    "chapter": "Chapter 4",
+    "question": "Which Asian country is known as 'Little Japan' and has the 4th largest economy in Asia (Samsung, Hyundai)?",
     "options": [
       "Taiwan",
       "South Korea",
@@ -921,23 +921,23 @@ const questionsData =
       "Philippines"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Seoul"
   },
   {
-    "question": "What is the original name of the \"Festival of Colors\" in India, which symbolizes the arrival of spring and involves throwing colored powders into the air?",
+    "chapter": "Chapter 4",
+    "question": "What is the original name of the 'Festival of Colours' celebrated in India?",
     "options": [
       "Holi(ka) Fest",
       "Dussehra",
-      "Navratri Fest",
-      "Durga Puja Fest"
+      "Navratri",
+      "Durga Puja"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Holi"
   },
   {
-    "question": "Which Chinese island country has not yet unified with (not been annexed by) mainland China (PRC)?",
+    "chapter": "Chapter 4",
+    "question": "What is the Chinese island country that has not yet been united with mainland China?",
     "options": [
       "Singapore",
       "Hong Kong",
@@ -945,23 +945,23 @@ const questionsData =
       "Taiwan"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Taipei"
   },
   {
-    "question": "Constitutionally, what kind of state is China?",
+    "chapter": "Chapter 4",
+    "question": "China is constitutionally a “multinational-multilingual ……………… state” with 5 autonomous regions.",
     "options": [
-      "Decentralized",
-      "United (Unitary)",
-      "Self-governing",
+      "The decentralized",
+      "United",
+      "Self Government",
       "Autonomous"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Single state but multiethnic"
   },
   {
-    "question": "What is the abbreviation for the Southeast Asian cooperation organization headquartered in Jakarta?",
+    "chapter": "Chapter 4",
+    "question": "What is the abbreviated name of the intergovernmental organization for Southeast Asian countries center in Jakarta?",
     "options": [
       "SAARC",
       "ASEAN",
@@ -969,47 +969,47 @@ const questionsData =
       "APEC"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "ASEAN"
   },
   {
-    "question": "Which organization, led by China and Russia, integrated with the \"Belt and Road\" project in 2013?",
+    "chapter": "Chapter 4",
+    "question": "Which organization was established by China and Russia to counter US interference in Asia?",
     "options": [
       "ACD",
       "ASEAN",
-      "Shanghai Cooperation Organization (SCO)",
+      "Shanghai Organization of Cooperation (SOC)",
       "APEC"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "SCO/SOC"
   },
   {
-    "question": "Which country in the Southern Hemisphere officially apologized to its indigenous people, the Aborigines, in 2008?",
+    "chapter": "Chapter 4",
+    "question": "Which country in the southern hemisphere apologized to its indigenous people in 2008 and is home to Aboriginals?",
     "options": [
       "New Zealand – Maoris",
       "New Caledonia – Kanaks",
-      "Australia – Aborigines",
-      "Fiji – Indians"
+      "Australia – Aboriginals",
+      "Fiji - Indians"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Canberra"
   },
   {
-    "question": "Which group of countries in Asia follows the right-hand traffic (left-hand drive) system like Turkey?",
+    "chapter": "Chapter 4",
+    "question": "Which Asian group has traffic flowing in the right lane (like Turkey), while others drive on left?",
     "options": [
-      "Malaysia-Singapore-Indonesia-East Timor",
-      "India-Pakistan-Bangladesh-Nepal",
-      "China-Koreas-Mongolia-Vietnam-Laos-Cambodia",
-      "Thailand-Sri Lanka-Bhutan-Papua New Guinea"
+      "Malaysia-Singapore",
+      "India-Pakistan",
+      "China-Koreas-Mongolia-Vietnam",
+      "Thailand-Sri Lanka"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Asia"
+    "hint": "Mainland East Asia"
   },
   {
-    "question": "What is the third most populous (349 million in 2026) and fourth largest country in the world?",
+    "chapter": "Chapter 5",
+    "question": "What is the third most populous (334 million) and fourth largest country in the world?",
     "options": [
       "Canada",
       "Mexico",
@@ -1017,191 +1017,191 @@ const questionsData =
       "Brazil"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Washington D.C."
   },
   {
-    "question": "The term 'Hispanics' refers to nearly 18 per cent of the US population (59 million people). Who is meant by this term?",
+    "chapter": "Chapter 5",
+    "question": "Who are meant by the term 'Hispanics' in the US context?",
     "options": [
-      "Hispaniola islanders (Haitians and Dominicans)",
-      "Only Mexican immigrants in the USA",
-      "Only people of Latin Iberian origin",
-      "American mestizo peoples and Spanish speaking immigrants/inhabitants"
+      "Hispaniola islanders",
+      "Only Mexican immigrants",
+      "Only people of Latin Iberian",
+      "American mestizo and Spanish speakers"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Broad socio-cultural group"
   },
   {
-    "question": "What is the name of the tribe of Chief Crazy Horse (Tashunca-Uitco), who defeated the US Army in 1876 and whose people issued a declaration in 2007 asking for independence from U.S. citizenship?",
+    "chapter": "Chapter 5",
+    "question": "What is the name of the tribe of Crazy Horse that issued a declaration of independence from US citizenship in 2007?",
     "options": [
-      "Na-Dene / Athabaskan",
+      "Na-Dene",
       "Algongin",
       "Iroquois",
       "Siux Lakota"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Lakota"
   },
   {
-    "question": "What is the largest Spanish-speaking city in the world, with a population of approximately 21.7 million?",
+    "chapter": "Chapter 5",
+    "question": "What is the largest Spanish-speaking city (21.7 million) in the world?",
     "options": [
       "Sao Paulo",
       "Rio de Janeiro",
       "Barcelona",
-      "Ciudad de Mexico (Mexico City)"
+      "Ciudad de Mexico"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Mexico capital"
   },
   {
-    "question": "What is the acronym for the intergovernmental organization of all 35 American states (except Greenland) that serves as a platform for human rights and democracy?",
+    "chapter": "Chapter 5",
+    "question": "What is the acronym for the intergovernmental organization of all 35 American states?",
     "options": [
       "NAFTA",
       "CIDH",
-      "OAS (Organization of American States)",
+      "OAS",
       "ACHR"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Organization of American States"
   },
   {
-    "question": "Where is the space base for the European Space Agency (ESA), which Türkiye also used to launch the Göktürk-1 satellite?",
+    "chapter": "Chapter 5",
+    "question": "Where is the space base for Europeans located (ESA)?",
     "options": [
       "Kazakhstan Baikonur",
       "Texas Houston",
-      "Florida Cape Canaveral",
+      "Florida Cape Carnaveral",
       "French Guiana"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Kourou"
   },
   {
-    "question": "What is the name of the 1823 diplomatic doctrine which stated that Europeans should not interfere in the affairs of the Americas (\"America belongs to Americans\")?",
+    "chapter": "Chapter 5",
+    "question": "After breaking from Great Britain, who became the first president of the United States?",
     "options": [
-      "Franklin Doctrine",
-      "Lincoln Doctrine",
-      "Eisenhower Doctrine",
-      "Monroe Doctrine"
-    ],
-    "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
-  },
-  {
-    "question": "Who is the famous president who abolished slavery in the United States and was subsequently assassinated?",
-    "options": [
-      "Benjamin Franklin",
-      "John Kennedy",
+      "George Washington",
+      "Thomas Jefferson",
       "Abraham Lincoln",
-      "Martin Luther King"
-    ],
-    "answer": 2,
-    "hint": null,
-    "chapter": "Americas"
-  },
-  {
-    "question": "Which US state was attacked at Pearl Harbor in 1941, became the 50th state in 1959, and is the only state where the population of Natives and hybrids is higher than that of whites?",
-    "options": [
-      "Hawaii",
-      "Oregon",
-      "Washington",
-      "California"
+      "Benjamin Franklin"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Founding Father"
   },
   {
-    "question": "Who was the charismatic president of Venezuela (died in 2013) who created the \"Bolivarian Republic of Venezuela\" and led regional solidarity against neoliberal policies?",
+    "chapter": "Chapter 5",
+    "question": "The issue of slavery created tension leading to which event in the United States (1861-1865)?",
     "options": [
-      "Fidel Castro",
-      "Daniel Ortega",
-      "Lula da Silva",
-      "Hugo Rafael Chavez"
+      "The Civil War",
+      "The War of Independence",
+      "The Mexican War",
+      "The Cold War"
     ],
-    "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "answer": 0,
+    "hint": "North vs South"
   },
   {
-    "question": "Which South American country has preserved its White European demographic the most, and is known for Patagonia, tango, and Pope Francis?",
+    "chapter": "Chapter 5",
+    "question": "As a result of which event did the United States actively enter World War II?",
     "options": [
-      "Brazil",
+      "Attack on Pearl Harbor",
+      "Invasion of Poland",
+      "Atomic bomb",
+      "Battle of Midway"
+    ],
+    "answer": 0,
+    "hint": "1941 Dec 7"
+  },
+  {
+    "chapter": "Chapter 5",
+    "question": "Venezuela's president in the 1970s nationalized which resource to improve the country?",
+    "options": [
+      "Oil",
+      "Coffee",
+      "Gold",
+      "Agriculture"
+    ],
+    "answer": 0,
+    "hint": "Black gold"
+  },
+  {
+    "chapter": "Chapter 5",
+    "question": "Which South American country is closest to the title 'Latin' due to its white majority and European immigrants?",
+    "options": [
       "Argentina",
+      "Peru",
       "Bolivia",
       "Paraguay"
     ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Americas"
+    "answer": 0,
+    "hint": "Buenos Aires"
   },
   {
-    "question": "Which country is home to the source of the Amazon, Lake Titicaca, Machu Picchu, and its capital, Lima?",
+    "chapter": "Chapter 5",
+    "question": "What is the name of the highest altitude lake in the world located in the Andes?",
     "options": [
-      "Peru",
-      "Honduras",
-      "Nicaragua",
-      "El Salvador"
+      "Titicaca",
+      "Maracaibo",
+      "Superior",
+      "Victoria"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Andes lake"
   },
   {
-    "question": "What is the world's fifth-largest territory and seventh-largest economy, and the only South American country where Portuguese is the official language?",
+    "chapter": "Chapter 5",
+    "question": "Which South American country has Portuguese as its official language?",
     "options": [
-      "Mexico",
       "Brazil",
-      "Canada",
-      "Colombia"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Americas"
-  },
-  {
-    "question": "What major historical event took place on July 4, 1776, a date inscribed on the Statue of Liberty?",
-    "options": [
-      "Declaration of the United States Constitution",
-      "Declaration of Independence",
-      "Victory of General Washington",
-      "Philadelphia Founders' Congress"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Americas"
-  },
-  {
-    "question": "Which country is known for its \"neo-Zapatista\" movement in Chiapas, authors like Octavio Paz, and heroes like Pancho Villa and Emiliano Zapata?",
-    "options": [
-      "New Mexico",
-      "Mexico",
-      "Chipas",
-      "Nicaragua"
-    ],
-    "answer": 1,
-    "hint": null,
-    "chapter": "Americas"
-  },
-  {
-    "question": "Which large country spans the Andes and the Amazon, suffered through \"Violencia\" periods, and is the home of author Gabriel García Márquez and artist Fernando Botero?",
-    "options": [
+      "Colombia",
       "Argentina",
-      "British Columbia",
-      "Columbia, South Carolina",
-      "Colombia"
+      "Chile"
     ],
-    "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "answer": 0,
+    "hint": "Amazon country"
   },
   {
-    "question": "Which Central American country is an \"unarmed\" republic with a permanent democracy, whose former President Óscar Arias Sánchez won the Nobel Peace Prize?",
+    "chapter": "Chapter 5",
+    "question": "The Statue of Liberty holds a torch and a tablet inscribed with which date?",
+    "options": [
+      "July 4, 1776",
+      "July 14, 1789",
+      "Oct 29, 1923",
+      "Sept 11, 2001"
+    ],
+    "answer": 0,
+    "hint": "US Independence"
+  },
+  {
+    "chapter": "Chapter 5",
+    "question": "Ancient indigenous civilisations in the Americas (Maya, Aztec, Inca) originated in which geographical area?",
+    "options": [
+      "Central and South America",
+      "North America",
+      "Caribbean Islands",
+      "The Great Lakes"
+    ],
+    "answer": 0,
+    "hint": "Mesoamerica and Andes"
+  },
+  {
+    "chapter": "Chapter 5",
+    "question": "Which large country spans the Andes, the Amazon plains, and the Pacific/Caribbean coasts, named after a famous explorer?",
+    "options": [
+      "Colombia",
+      "Venezuela",
+      "Ecuador",
+      "Peru"
+    ],
+    "answer": 0,
+    "hint": "Christopher Columbus"
+  },
+  {
+    "chapter": "Chapter 5",
+    "question": "Which 'banana republic' is an unarmed republic governed by permanent democracy?",
     "options": [
       "Guatemala",
       "Honduras",
@@ -1209,10 +1209,10 @@ const questionsData =
       "Panama"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Rich Coast"
   },
   {
+    "chapter": "Chapter 5",
     "question": "In which Central American country does the indigenous Mayan population outnumber the mestizo population?",
     "options": [
       "Guatemala",
@@ -1221,11 +1221,11 @@ const questionsData =
       "Nicaragua"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Tikal location"
   },
   {
-    "question": "Who is the Uruguayan writer and author of \"Open Veins of Latin America,\" often described as the \"conscience of humanity\"?",
+    "chapter": "Chapter 5",
+    "question": "Who is the Uruguayan writer of 'Open Veins of Latin America' known as the 'conscience of humanity'?",
     "options": [
       "Octavio Paz",
       "Gabriel Garcia Marquez",
@@ -1233,59 +1233,59 @@ const questionsData =
       "Eduardo Galeano"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Galeano"
   },
   {
-    "question": "Who was the first sailor to arrive in North America in 1497, whose voyage was financed by the British merchant Richard Amerike?",
+    "chapter": "Chapter 5",
+    "question": "Which Italian sailor was the first to arrive in North America (1497) supported by Richard Amerike?",
     "options": [
       "Giovanni Caboto (John Cabot)",
-      "Gerard Kremer (Mercator)",
+      "Gerard Kremer",
       "Jacques Cartier",
-      "Giovanni Dionigi Galeni (Kılıç Ali Paşa)"
+      "Kılıç Ali Paşa"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Americas"
+    "hint": "Cabot"
   },
   {
-    "question": "In 1963, the presidents of 32 countries met in Addis Ababa to establish a continental organization for intergovernmental cooperation: The Organization of African Unity. The organization changed its name in 2002. What is the name of this continental union organization of which all 55 countries in the continent are members?",
+    "chapter": "Chapter 6",
+    "question": "What is the name of the continental union organization for all 55 African countries (founded 1963)?",
     "options": [
       "African Union",
       "The African Economic Community",
-      "Organization of Islamic Cooperation",
-      "Arab League (League of Arab States)"
+      "OIC",
+      "Arab League"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Africa"
+    "hint": "AU"
   },
   {
-    "question": "During the decolonization period, many sub-Saharan \"Black\" African states chose the flag colors \"yellow-green-red\" to represent the Pan-African movement and a unity of destiny. Where are the headquarters of the African Union, which has 55 member states?",
+    "chapter": "Chapter 6",
+    "question": "Where are the headquarters of the African Union located?",
     "options": [
-      "Pan-Arab, Egypt-Cairo",
-      "Afro-Americans, USA-Atlanta",
-      "Pan-African, Ethiopia-Addis Ababa",
-      "The Sub-Saharan Black Movement, RSA-Pretoria"
+      "Egypt-Cairo",
+      "USA-Atlanta",
+      "Ethiopia-Addis Ababa",
+      "RSA-Pretoria"
     ],
     "answer": 2,
-    "hint": null,
-    "chapter": "Africa"
+    "hint": "Ethiopian capital"
   },
   {
-    "question": "In which regions is the traditional cultural attitude of female genital mutilation (FGM), which affects 200 million women and was discussed at the 1994 Cairo Conference, still maintained?",
+    "chapter": "Chapter 6",
+    "question": "In which regions is the sexist and gendered tradition of female genital mutilation primarily maintained?",
     "options": [
-      "Natives in the Andes and the Amazon basin",
-      "Buddhist Mongolian and Tibetan communities",
-      "Arctic Peoples in the tundra belt",
-      "Sahel and Saharan Tribes in Africa, and in Indonesia (at the warmest latitude)"
+      "Andes/Amazon",
+      "Mongolian/Tibetan",
+      "Arctic Peoples",
+      "Sahel and Saharan Tribes"
     ],
     "answer": 3,
-    "hint": null,
-    "chapter": "Africa"
+    "hint": "African sunbelt"
   },
   {
-    "question": "The island of Goree was a center of the African slave trade. This country is the only African society that has been able to live in democracy for fifty-five years since its independence. Which country is known for its independence as the \"poet leader\" and the Sahara rally competition?",
+    "chapter": "Chapter 6",
+    "question": "Which country is home to the Goree island museum and has lived in democracy for 55 years since independence?",
     "options": [
       "Mauritania",
       "Senegal",
@@ -1293,19 +1293,18 @@ const questionsData =
       "Nigeria"
     ],
     "answer": 1,
-    "hint": null,
-    "chapter": "Africa"
+    "hint": "Dakar capital"
   },
   {
-    "question": "There are 22 Arab countries, and the founding staff of most of these states chose black-white-red as their flag colors. What influential political movement did these colors represent during the twentieth century?",
+    "chapter": "Chapter 6",
+    "question": "What political movement do the black-white-red-green flag colors represent in 22 Arab countries?",
     "options": [
       "Arab Nationalism and Pan-Arabism",
-      "Kahtani and Adnani Arab Fusion",
-      "Umeyye and Hashimi noble families (Quraysh) Unity",
+      "Kahtani ve Adnani Fusion",
+      "Umeyye/Hashimi Unity",
       "Bedouin and Fellah"
     ],
     "answer": 0,
-    "hint": null,
-    "chapter": "Africa"
+    "hint": "Baath/Nasserist era"
   }
 ];
