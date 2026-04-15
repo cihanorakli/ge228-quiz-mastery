@@ -11,12 +11,15 @@ const resultScreen = document.getElementById('result-screen');
 const progressBar = document.getElementById('progress-bar');
 const progressText = document.getElementById('progress-text');
 const wrongCounterEl = document.getElementById('wrong-counter');
-const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
+const questionText = document.getElementById('question-text');
+const nextBtn = document.getElementById('next-btn');
+let lastAnswerCorrect = false;
 
 // Initial Load
 document.getElementById('start-btn').addEventListener('click', startQuiz);
 document.getElementById('restart-btn').addEventListener('click', () => location.reload());
+nextBtn.addEventListener('click', nextQuestion);
 
 function startQuiz() {
     // Load ALL 109 questions from questions.js (questionsData)
@@ -43,6 +46,9 @@ function loadQuestion() {
         return;
     }
 
+    // Hide next button for new question
+    nextBtn.style.display = 'none';
+
     const currentQ = queue[0];
     questionText.innerText = currentQ.question;
     optionsContainer.innerHTML = '';
@@ -68,16 +74,7 @@ function handleAnswer(selectedIndex, clickedBtn) {
     if (selectedIndex === currentQ.answer) {
         // Correct Answer
         clickedBtn.classList.add('correct');
-        
-        // Remove from queue after a short delay
-        setTimeout(() => {
-            queue.shift(); 
-            if (queue.length > 0) {
-                loadQuestion();
-            } else {
-                finishQuiz();
-            }
-        }, 600);
+        lastAnswerCorrect = true;
     } else {
         // Wrong Answer
         clickedBtn.classList.add('wrong');
@@ -86,13 +83,26 @@ function handleAnswer(selectedIndex, clickedBtn) {
         
         // Highlight correct option
         optionButtons[currentQ.answer].classList.add('correct');
+        lastAnswerCorrect = false;
+    }
 
+    // Show next button instead of automatic transition
+    nextBtn.style.display = 'block';
+}
+
+function nextQuestion() {
+    if (lastAnswerCorrect) {
+        queue.shift();
+    } else {
         // Move question to the end of the queue (spaced repetition)
-        setTimeout(() => {
-            const missedQ = queue.shift();
-            queue.push(missedQ);
-            loadQuestion();
-        }, 1500);
+        const missedQ = queue.shift();
+        queue.push(missedQ);
+    }
+
+    if (queue.length > 0) {
+        loadQuestion();
+    } else {
+        finishQuiz();
     }
 }
 
