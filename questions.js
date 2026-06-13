@@ -1,235 +1,127 @@
 const questionsData = [
   {
-    "chapter": "Chapter 1",
-    "question": "It was the Phoenician seafarers who made the first long voyages... Who was the great historian and geographer from Halicarnassus?",
+    "chapter": "Chapter 7 Questions",
+    "question": "The Saami (pop. 82,000), traditional reindeer herders of the Arctic reaches of Scandinavia, live under the sovereignty of four different states. While they possess a flag symbolizing their distinct ethnic culture and have established platforms for self- governance—such as the Saami Parliament (Sametinget) in Karasjohka, Norway—they do not hold territorial sovereignty or a federated state of their own. Interestingly, for centuries, Europeans have referred to the Saami by a different, more widely known name. What is the popular name others give to the Saami people and their homeland Sapmi?",
     "options": [
-      "Herodotus - Historiai",
-      "Pausanias",
-      "Anaksimandros",
-      "Hekataios"
-    ],
-    "answer": 0,
-    "hint": "Historiai"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Xenophon, in his work ………………………. (Anabasis), describes the Greek legionary warriors...",
-    "options": [
-      "Raid of Ten Thousands",
-      "Return of Ten Thousands",
-      "100 Spartans",
-      "Expedition of Hellenes"
+      "Eskimo - Nunangat",
+      "Lapps - Lapland",
+      "Sakha - Yakutia",
+      "Nenets - Nenetsia"
     ],
     "answer": 1,
-    "hint": "Anabasis"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 1",
-    "question": "What land is Pytheas supposed to have reached where he described icebergs and the sun rising at midnight?",
+    "chapter": "Chapter 7 Questions",
+    "question": "Given this history of expansion, how did the United States acquire Alaska? From which state was it obtained, and under what circumstances was this territory transferred to the U.S.?",
     "options": [
-      "America Newfoundland",
+      "It was purchased from the Russian Empire for 7.2 million dollars.",
+      "The USA took over the 'Polar Indigenous Treaty' , which guarantees payments to the indigenous Inuit and Aleut peoples.",
+      "It was taken from the Canadian dominion by giving 7.2 million pounds to the United Kingdom.",
+      "It was taken from Canada by assured the land rights and social security of Eskimo and Aleut indigenous peoples."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 7 Questions",
+    "question": "It is the largest island in the world, approximately three times the size of Turkey. Around 57,000 people reside there, 92 percent of whom are Kalaallit-Inuit or of mixed Inuit-European descent. In the summer of 2019, during his presidency, Donald Trump expressed a desire to purchase the island. Both the islanders and the Danish government reacted sharply, declaring that \"neither the land nor its people are for sale. \" Which island is this?",
+    "options": [
       "Iceland",
-      "Scotland",
-      "Faroe islands"
-    ],
-    "answer": 1,
-    "hint": "Thule"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "…………………………… was born in Amasya (63 BC). Wrote the 17-book Geographica.",
-    "options": [
-      "Piri Reis",
-      "Ptolemy",
-      "Strabo",
-      "Evliya Çelebi"
+      "Faroe Islands",
+      "Greenland (K. Nunaat)",
+      "Australia"
     ],
     "answer": 2,
-    "hint": "Born in Amasya"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 1",
-    "question": "…………………………… worked for the library of Alexandria (150 AD). Wrote Geography Guide (8 volumes).",
+    "chapter": "Chapter 7 Questions",
+    "question": "This people, with a population of approximately 41,000, constitutes the primary group of the Samoyeds. They inhabit the Eurasian tundra zone along the Arctic Ocean coastline. Despite their ancestral lands being exceptionally rich in oil and natural gas, the indigenous people see little to no direct economic benefit from these resources.",
     "options": [
-      "Ptolemy",
-      "Herodotus",
-      "Hekataios of Miletus",
-      "Lydian Pausanias"
-    ],
-    "answer": 0,
-    "hint": "Almagest author"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Who produced Tabula Rogeriana, the most advanced medieval world map (1154)?",
-    "options": [
-      "Ibn Battuta",
-      "Mohammed al-Idrisi",
-      "Piri Reis",
-      "Biruni"
-    ],
-    "answer": 1,
-    "hint": "Sicily under King Roger"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Who was the first great traveller who wrote the 229-chapter work 'The Book of İl Milione'?",
-    "options": [
-      "Evliya Çelebi",
-      "Rusticello",
-      "Marco Polo",
-      "Ibn Battuta"
-    ],
-    "answer": 2,
-    "hint": "Venetian merchant"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Who is known as the man who travelled the furthest of anyone on Earth, writing 'Rihla'?",
-    "options": [
-      "Ibn Rushd",
-      "Ibn Tufayl",
-      "Ibn Battuta",
-      "Ibn-i Sina"
-    ],
-    "answer": 2,
-    "hint": "From Tangier, Morocco"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Which of the following cannot be said to have a role as an active culture carrier in early global transfers?",
-    "options": [
-      "traders and shippers",
-      "long-distance travelers",
-      "explorers and immigrant-settlers",
-      "naval fleets"
+      "Inuit",
+      "Saami",
+      "Chukchi",
+      "Nenets"
     ],
     "answer": 3,
-    "hint": "Think of military purpose"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 1",
-    "question": "What is the great seafaring city whose fleet explored the first known sea voyage in history (Hanno's voyage)?",
+    "chapter": "Chapter 7 Questions",
+    "question": "The Sakha people are a nation of Turkic descent who migrated to Siberia more than a thousand years ago. Their homeland, situated in the vast Lena River basin, is the largest autonomous region in the world. Rich in mineral resources, the region is a global leader in production. What is the publicly known official name of this Sakha’s country/nation/capital city (same)? What precious mine (rich deposits worldwide) is in this country?",
     "options": [
-      "Phoenician Carthage",
-      "Graecian Syracuse",
-      "Ionian Massalia",
-      "Greek Athens"
-    ],
-    "answer": 0,
-    "hint": "Near present Tunisia"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "How many states are there on the coasts of the Greater Mediterranean (excluding Black Sea)?",
-    "options": [
-      "12",
-      "22",
-      "32",
-      "44"
-    ],
-    "answer": 1,
-    "hint": "22 states"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Who evaluated Vespucci's writings in 1504 and named the new continent 'America' in 1507?",
-    "options": [
-      "Martin Waldseemüller",
-      "Piri Reis",
-      "Nunez de Balboa",
-      "Juan de la Cosa"
-    ],
-    "answer": 0,
-    "hint": "German cartographer"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Who was the author of the first novel in which the bourgeois individual was a hero (Robinson Crusoe)?",
-    "options": [
-      "Robert Louis Stevenson",
-      "Daniel Defoe",
-      "Ibn Tufeyl",
-      "Jonathan Swift"
-    ],
-    "answer": 1,
-    "hint": "Robinson Crusoe"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "Which statement contains correct information regarding the Colombian exchange?",
-    "options": [
-      "Fatih Sultan Mehmet loved tomatoes",
-      "Tobacco seedlings in Virginia were from Samsun",
-      "Coffee was common for Brazilians before whites",
-      "Native Americans lacked horses before whites arrived"
+      "Mongolia, uranium",
+      "Kazakhstan, oil",
+      "Chuvashia, gold",
+      "Yakutia, diamond"
     ],
     "answer": 3,
-    "hint": "Horses were introduced"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 1",
-    "question": "Which Kingdom of Lisbon was founded in the heritage of Islamic Andalusia and started overseas trade exploration (1415-1460)?",
+    "chapter": "Chapter 7 Questions",
+    "question": "It is one of the largest countries in Europe by landmass, spanning 103,000 km²— making it larger than Portugal or Austria. Despite its vast territory, it is the only sizable nation in Europe without a railway system. It boasts the highest vehicle ownership rate in Europe, with 750 cars per 1,000 people. What is this country?",
     "options": [
-      "Holy Roman-German",
-      "Holy Roman-Frank",
-      "Spain",
-      "Portugal"
-    ],
-    "answer": 3,
-    "hint": "Lisbon"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "What do you call the transportation of plant and animal species between continents through exploration?",
-    "options": [
-      "New environmental facts",
-      "The Colombian exchange",
-      "Foreign exchange",
-      "The world trade system"
-    ],
-    "answer": 1,
-    "hint": "Named after Columbus"
-  },
-  {
-    "chapter": "Chapter 1",
-    "question": "What is the second most spoken mother tongue in the world after Chinese?",
-    "options": [
-      "English",
-      "Spanish",
-      "French",
-      "Bengali"
-    ],
-    "answer": 1,
-    "hint": "Widely spoken in Latin America"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "What is the most widely spoken native language (mother tongue) in the world?",
-    "options": [
-      "Mandarin (Putonghua)",
-      "Wu",
-      "Min Nan",
-      "Yue"
-    ],
-    "answer": 0,
-    "hint": "Chinese standard"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "What is the sub-continental federal state that is multilingual (450 languages) and governed by a pluralistic parliament?",
-    "options": [
-      "Indiana",
-      "Indochina",
-      "India",
-      "Indonesia"
+      "Svalbard Islands",
+      "Ireland",
+      "Iceland",
+      "Faroe Islands"
     ],
     "answer": 2,
-    "hint": "New Delhi"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "Arabic, Aramaic, Hebrew and Abyssinian belong to which language group?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which country is the most populous Muslim nation in the world, with approximately 240 million Muslims out of a total population of 280 million?",
+    "options": [
+      "Indonesia",
+      "Bangladesh",
+      "Pakistan",
+      "India"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "While Cairo is the largest Arab city in Africa, which Asian city holds the title of the most populous Arab city, with a population of eight million?",
+    "options": [
+      "Baghdad",
+      "Damascus",
+      "Beirut",
+      "Dubai"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "With a population of 37 million, it is the second most populous Turkic republic after Turkey. Its capital, Tashkent, is the largest city in Central Asia. Which country lies between the Amu Darya (Ceyhun) and Syr Darya (Seyhun) rivers and is world-renowned for its vast cotton fields?",
+    "options": [
+      "Turkmenistan",
+      "Uzbekistan",
+      "Mongolia",
+      "Kyrgyzstan"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Today, this Turkic language is spoken in China's Xinjiang Autonomous Region (formerly East Turkestan) and continues to be written in the Arabic script. What is the name of this language and its people?",
+    "options": [
+      "Tuvan",
+      "Khakasian",
+      "Uyghur",
+      "Altai"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Arabic, Aramaic, Hebrew, and Amharic share fundamental common characteristics. These languages of the Fertile Crescent (Middle East) share deep linguistic and historical roots and are collectively known as the …………………. language family.",
     "options": [
       "Egyptian",
       "Semitic",
@@ -237,1074 +129,1308 @@ const questionsData = [
       "Mashreq"
     ],
     "answer": 1,
-    "hint": "Middle Eastern family"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "Which are the 2nd and 7th most spoken mother tongues according to the Ethnologue list?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Where is the headquarters of the OIC, an organization aimed at promoting “enhanced cooperation” among Islamic countries?",
     "options": [
-      "2nd French - 7th Spanish",
-      "2nd German - 7th French",
-      "2nd Spanish - 7th Italian",
-      "2nd Spanish - 7th Portuguese"
-    ],
-    "answer": 3,
-    "hint": "Portuguese is 7th/8th"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which alphabet do Orthodox Slavs use?",
-    "options": [
-      "Cyrillic",
-      "Runic",
-      "Gothic",
-      "Greek"
-    ],
-    "answer": 0,
-    "hint": "Created by St. Cyril"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which is the most populous Muslim country in the world, speaking Bahasa?",
-    "options": [
-      "Bangladesh",
-      "Malaysia",
-      "Singapore",
-      "Indonesia"
-    ],
-    "answer": 3,
-    "hint": "Jakarta"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "What is the most widely spoken native and official language of the Philippines?",
-    "options": [
-      "Filipino Tagalog",
-      "Manila dialect",
-      "Malaya dialect",
-      "Pacific Pigeon"
-    ],
-    "answer": 0,
-    "hint": "Tagalog based"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which language in Central Asia is NOT a Turkic language, but belongs to the Persian group?",
-    "options": [
-      "Uzbek",
-      "Kyrgyz",
-      "Kazakh",
-      "Tajik"
-    ],
-    "answer": 3,
-    "hint": "Spoken in Dushanbe"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which language is the third most widely adopted official language in the international community?",
-    "options": [
-      "Avestan-Persian",
-      "Arabic",
-      "Urdu-Hindi",
-      "Roman (Latin)"
-    ],
-    "answer": 1,
-    "hint": "Language of the Quran"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "In alphabetic writing, what are the symbols representing units of sound called?",
-    "options": [
-      "phoneme",
-      "diphtong",
-      "accent",
-      "dialect"
-    ],
-    "answer": 0,
-    "hint": "Sound unit"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which of the following is the official language of Pakistan?",
-    "options": [
-      "Sindhi",
-      "Pakistani",
-      "Urdu",
-      "Punjabi-Lahnda"
-    ],
-    "answer": 2,
-    "hint": "Hindustani variant"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "What is the source of the standard language in Spanish, from the central plateau?",
-    "options": [
-      "Galician",
-      "Castilian",
-      "Valencian",
-      "Aragones"
-    ],
-    "answer": 1,
-    "hint": "Castile region"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which religion is the comprehensive and detailed subcontinental common cultural religion specific to the Indian world?",
-    "options": [
-      "Sikhism",
-      "Hinduism (Brahmanism)",
-      "Zen Buddhism",
-      "Jainism"
-    ],
-    "answer": 1,
-    "hint": "Vedic roots"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which nature-centered belief belongs specifically to Japan?",
-    "options": [
-      "Japan (Shintoism)",
-      "China",
-      "Indonesia",
-      "North/South Korea"
-    ],
-    "answer": 0,
-    "hint": "Way of the gods"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "In which country is the Dalai Lama the head of the Buddhist faith?",
-    "options": [
-      "Vietnam",
-      "Tibet",
-      "Japan",
-      "Korea"
-    ],
-    "answer": 1,
-    "hint": "Lhasa"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "What is the meaning of the words: 'Qur’an' and 'Gospel/Evangelium'?",
-    "options": [
-      "Holy Whisper / Pearls",
-      "Establish order / Advice",
-      "Collect and read / The good news",
-      "Unique Book / Last will"
-    ],
-    "answer": 2,
-    "hint": "Literally: recite and good news"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Where is the tomb (burial site) of the Prophet Muhammad located?",
-    "options": [
-      "Riyadh",
-      "Mecca",
       "Medina",
-      "Hebron"
+      "Jeddah",
+      "Jakarta",
+      "Mecca"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which Muslim-majority European country is unable to join the OIC (even with observer status), just as it cannot gain full membership in the United Nations (UN) due to Russia's veto power, because it is not recognized by some Islamic countries such as Algeria that maintain close ties with Serbia?",
+    "options": [
+      "Bulgaria",
+      "Abkhazia",
+      "Kosovo",
+      "North Macedonia"
     ],
     "answer": 2,
-    "hint": "Al-Masjid an-Nabawi"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "Which Orthodox patriarchate is considered 'the first among equals'?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which of the following Gulf countries is being referred to here?",
     "options": [
-      "Istanbul Fener Rom Patriarchate",
-      "Alexandria Patriarchate",
-      "Russia Patriarchate",
-      "Jerusalem Patriarchate"
+      "Qatar",
+      "United Arab Emirates",
+      "Kuwait",
+      "Oman"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "The most active and deep-rooted institution is the ……………, known by its short name TÜRKSOY , headquartered in Ankara. What is the name of this international cultural organization?",
+    "options": [
+      "International Organization of Turkic Culture",
+      "Turkic Languages and Culture Organization",
+      "Union of Turkic Speaking and Ancestral Communities",
+      "TURAN Culture Federation"
     ],
     "answer": 0,
-    "hint": "Ecumenical Patriarchate"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "Which major Asian society became followers of the Roman Catholic Church due to Spanish colonialism?",
+    "chapter": "Chapter 8 Questions",
+    "question": "What is the name of this palace, famous for its reddish-pink craftsmanship, sparkling pools, and tiered gardens, featuring the continuous calligraphic band “There is no victor (lasting power) but Allah” wandering through all its halls?",
     "options": [
-      "Indonesia",
-      "Philippines",
-      "Australia",
-      "Japan"
+      "Kurtuba Medinetü’z-zehra",
+      "Alcatraz (El Kasır)",
+      "Alhambra (Elhamra)",
+      "Generalife (Cennet ül arif)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which of the Central Asian countries listed below is of Aryan-Persian (Farsi) linguistic and cultural heritage, similar to Afghanistan and Iran?",
+    "options": [
+      "Turkmenistan",
+      "Tajikistan",
+      "Kazakhstan",
+      "Uzbekistan",
+      "Kyrgyzstan"
     ],
     "answer": 1,
-    "hint": "South East Asia"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "What is the worship involving seven rotations around the Kaaba?",
+    "chapter": "Chapter 8 Questions",
+    "question": "What is the name of this city, also known as Yerushalayim/Jerusalem (City of Peace)?",
     "options": [
-      "Tawaf / Nabawi",
-      "Hajj / Kaaba",
-      "Holy Visit",
-      "Eid al-Adha"
+      "Kudüs",
+      "Damascus (Şam)",
+      "Aqaba",
+      "Mecca"
     ],
-    "answer": 1,
-    "hint": "Pilgrimage"
+    "answer": 0,
+    "hint": ""
   },
   {
-    "chapter": "Chapter 2",
-    "question": "What is the most powerful church in all the Nordic countries (Sweden, Norway, etc.)?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which country is being introduced?",
     "options": [
-      "Calvinistic",
-      "Evangelical Lutheran",
-      "Presbyterian",
-      "Free Baptist"
-    ],
-    "answer": 1,
-    "hint": "Martin Luther's reform"
-  },
-  {
-    "chapter": "Chapter 2",
-    "question": "Which country is home to the majority of Copts (the largest Christian community using Arabic)?",
-    "options": [
-      "Lebanon",
+      "Kuwait",
+      "Saudi Arabia",
       "Egypt",
-      "Palestine",
+      "United Arab Emirates"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which of the following is the least recognized country outside of this trio (recognized by only 6 members)?",
+    "options": [
+      "Abkhazia Republic (de facto)",
+      "Kosovo Republic",
+      "Sahrawi Arab Democratic Republic",
+      "Palestine (Devlet-ü Filastîn)"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "What is the name of this special city located south of the capital Tehran and near the ancient city of Ray?",
+    "options": [
+      "Isfehan",
+      "Nishapur (Mashhad)",
+      "Shiraz",
+      "Qom (Kum)"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "In which country’s territory is Palmyra located, having suffered great damage from the attacks of modern-day 'jahiliyyah' minded groups and recent wars?",
+    "options": [
+      "Yemen",
+      "Lebanon",
+      "Iraq",
       "Syria"
     ],
-    "answer": 1,
-    "hint": "Alexandria center"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the story behind the name “Europe”?",
-    "options": [
-      "Eureka!",
-      "First man from Africa",
-      "Anatolia means East / Europe West",
-      "Phoenician woman abducted to Crete"
-    ],
     "answer": 3,
-    "hint": "Daughter of Agenor"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 3",
-    "question": "Which name was mistakenly attributed to the Romani people because they came via Egypt?",
+    "chapter": "Chapter 8 Questions",
+    "question": "What is the name of this country?",
     "options": [
-      "Gitane",
-      "Calderash",
-      "Manouch-Sinti",
-      "Gypsy (Coptic)"
+      "Mali",
+      "Burkina Faso",
+      "Chad",
+      "Niger"
     ],
-    "answer": 3,
-    "hint": "Little Egypt"
+    "answer": 0,
+    "hint": ""
   },
   {
-    "chapter": "Chapter 3",
-    "question": "Which group of countries is NOT among the 11 royal European countries?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which language/dialect is this, which shows great similarity to Balkan Turkish and is spoken by the Orthodox Christian community of Oghuz origin?",
     "options": [
-      "Sweden, Norway, Denmark",
-      "Netherland, Belgium, Luxembourg",
-      "Ireland, Finland, Georgia",
-      "UK, Spain, Andorra"
-    ],
-    "answer": 2,
-    "hint": "Republics"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "How many states are in Europe and how many are full members of the EU?",
-    "options": [
-      "195 // 51",
-      "50 // 27",
-      "57 // 28",
-      "100 // 50"
+      "Moldovan",
+      "Gagauz dialect",
+      "Afshar subdialect",
+      "Dobruja (Dobrich) dialect"
     ],
     "answer": 1,
-    "hint": "Current counts"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 3",
-    "question": "Where are the Council of Europe's headquarters located?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which of the following is a people who, despite not being of Turkic origin and not being native Turkish speakers, made immense contributions to the state administration and Ottoman culture during the six centuries of the Ottoman era?",
     "options": [
-      "Strasbourg",
-      "Brussels",
-      "The Hague",
-      "Vienna"
-    ],
-    "answer": 0,
-    "hint": "City in France near German border"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the binding legal agreement established by the Council of Europe to protect human rights?",
-    "options": [
-      "UN Declaration",
-      "European Convention on Human Rights",
-      "International Court of Justice",
-      "OSCE"
-    ],
-    "answer": 1,
-    "hint": "ECHR"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which northern people are NOT from the sailor Vikings, but Ugric languages?",
-    "options": [
-      "Finns and Saami",
-      "Swedes",
-      "Norwegians",
-      "Danish"
-    ],
-    "answer": 0,
-    "hint": "Uralic family"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the approximate population of Europe?",
-    "options": [
-      "~ 850 billion",
-      "~ 8.5 billion",
-      "~ 850 million",
-      "~ 85 million"
+      "Gagauzia people in Moldova",
+      "Deliorman-Shumen, Haskovo-Kardzhali in Bulgaria",
+      "Bosniaks of Bosnia and Herzegovina",
+      "Komotini, Xanthi in Western Thrace"
     ],
     "answer": 2,
-    "hint": "Less than 1 billion"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 3",
-    "question": "Which group has NOT any city and territory overseas after the colonial era?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which megacity is this, housing the largest Muslim community in Europe after Istanbul?",
     "options": [
-      "Portugal/Spain",
-      "England/Denmark",
-      "France/Netherlands",
-      "Italy/Germany"
-    ],
-    "answer": 3,
-    "hint": "No overseas department"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which group was NOT among the Celtic peoples of the British Isles?",
-    "options": [
-      "Gaelic",
-      "Welsh",
-      "Anglo-Saxon",
-      "Breton"
+      "Sarajevo (Saraybosna)",
+      "Manchester",
+      "Moscow",
+      "Berlin"
     ],
     "answer": 2,
-    "hint": "Germanic tribes"
+    "hint": ""
   },
   {
-    "chapter": "Chapter 3",
-    "question": "Which Eastern European country has a deep-rooted Catholic tradition and elected the first non-Italian Pope?",
-    "options": [
-      "Slovakia",
-      "Slovenia",
-      "Poland",
-      "Croatia"
-    ],
-    "answer": 2,
-    "hint": "John Paul II"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "In which countries is the native Muslim population very high (15% and 12%)?",
-    "options": [
-      "Federation of Russia and Bulgaria",
-      "Denmark and Belgium",
-      "Albania and Bosnia-Herzegovina",
-      "France and England"
-    ],
-    "answer": 0,
-    "hint": "Balkan/Eurasia neighbors"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which European country has the largest population of 'immigrant origin' (7.5 million)?",
-    "options": [
-      "France",
-      "Poland",
-      "United Kingdom",
-      "Turkey"
-    ],
-    "answer": 0,
-    "hint": "Paris context"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Surinamese and Moluccans moving to take advantage of former colonial states primarily went to which country?",
-    "options": [
-      "Belgium",
-      "The Netherlands",
-      "England",
-      "Portugal"
-    ],
-    "answer": 1,
-    "hint": "Amsterdam context"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What city's history involves Magna Carta, industrial society growth, and was the largest in Europe until Istanbul grew?",
-    "options": [
-      "Paris",
-      "Brussels",
-      "London",
-      "Amsterdam"
-    ],
-    "answer": 2,
-    "hint": "Thames river"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the center of the Episcopal of London with a magnificent dome (111m high)?",
-    "options": [
-      "St Paul Anglican",
-      "Westminster Abbey",
-      "Windsor Castle",
-      "James’s Catholic"
-    ],
-    "answer": 0,
-    "hint": "Christopher Wren"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which group of countries is NOT on the Baltic Sea coast?",
-    "options": [
-      "Latvia/Estonia",
-      "Finland/Sweden",
-      "Denmark",
-      "Norway/Iceland"
-    ],
-    "answer": 3,
-    "hint": "Atlantic/North Sea focus"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which country is a member of the Council of Europe but not the EU, and has a parliamentary presidential authoritarian system?",
-    "options": [
-      "Poland",
-      "France",
-      "Belarus",
-      "Russian Federation"
-    ],
-    "answer": 3,
-    "hint": "Moscow"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which port cities are in Southern Europe but NOT on the Mediterranean coast?",
-    "options": [
-      "Valencia/Barcelona",
-      "Genoa/Naples",
-      "Lisbon/Porto",
-      "Monaco/Marseille"
-    ],
-    "answer": 2,
-    "hint": "Atlantic coast"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which identity is associated with the struggle for Free Ireland and St. Patrick's Day?",
-    "options": [
-      "Republican Catholic",
-      "Free Irish",
-      "Revolutionary Celtic",
-      "Celtic Eire"
-    ],
-    "answer": 0,
-    "hint": "St. Patrick's color"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which group of countries do NOT share red-blue-white striped flags?",
-    "options": [
-      "Czech/Slovakia",
-      "Lithuania/Estonia",
-      "Netherlands/Luxembourg",
-      "France/Russia"
-    ],
-    "answer": 1,
-    "hint": "Green and Black"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "Which state is located in Basarabia as a neighboring state of Romania, sharing similar culture and language?",
-    "options": [
-      "Dnestry Autonomous",
-      "Moldova",
-      "East Prut",
-      "Dobrogea"
-    ],
-    "answer": 1,
-    "hint": "Chisinau"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the capital of Slovakia, near Vienna?",
-    "options": [
-      "Ljubljana",
-      "Dubrovnik",
-      "Zagreb",
-      "Bratislava"
-    ],
-    "answer": 3,
-    "hint": "Formerly Pressburg"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "What is the major ethnic group in Belgium (59%) that speaks Flemish/Dutch?",
-    "options": [
-      "Flemings (Vlaams)",
-      "Liege",
-      "Frisans",
-      "Antwerpen burghers"
-    ],
-    "answer": 0,
-    "hint": "Flanders"
-  },
-  {
-    "chapter": "Chapter 3",
-    "question": "In which countries are Bavaria (Bayern) and Bohemia located?",
-    "options": [
-      "Germany-Czech Republic",
-      "Poland-Austria",
-      "Germany-Austria",
-      "Slovakia-Poland"
-    ],
-    "answer": 0,
-    "hint": "Munich and Prague"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What are the Chinese words for China, Chinese people, and Standard language?",
-    "options": [
-      "Chonggua – Han – Putonghua",
-      "Canton – Guangdong – Yue",
-      "Yangtze – Shanghai - Wu",
-      "Fujian+Taiwan – Min"
-    ],
-    "answer": 0,
-    "hint": "Mandarin"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which Asian country has a pluralist parliamentary regime since its independence and 22 official languages?",
-    "options": [
-      "Indonesia",
-      "Indochina",
-      "India",
-      "West Indies"
-    ],
-    "answer": 2,
-    "hint": "World's largest democracy"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the original name of the Great Wall of China, meaning 'long wall'?",
-    "options": [
-      "The Great Wall",
-      "Si lu",
-      "Gobi-Jin",
-      "Chang-Cheng"
-    ],
-    "answer": 3,
-    "hint": "Pinyin: Changcheng"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the name of the ancient imperial administrative centre of Persia near Shiraz?",
-    "options": [
-      "Kum",
-      "Isfahan",
-      "Persepolis",
-      "Elâm"
-    ],
-    "answer": 2,
-    "hint": "City of Persians"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "In which country are the temples of Angkor Wat located?",
-    "options": [
-      "Cambodia",
-      "Thailand",
-      "Sri Lanka",
-      "Laos"
-    ],
-    "answer": 0,
-    "hint": "Khmer Empire"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the historical capital of the Japanese Empire (8th-19th century) known for wooden structures?",
-    "options": [
-      "Kyoto",
-      "Tokyo",
-      "Fujiyama",
-      "Osaka"
-    ],
-    "answer": 0,
-    "hint": "Formerly Miyako"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which island is referred to as Serendip or Ceylon in the 'Tales of Thousand and One Nights'?",
-    "options": [
-      "Socotra",
-      "Sri Lanka",
-      "Maldives",
-      "East Timor"
-    ],
-    "answer": 1,
-    "hint": "In the Indian Ocean"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which of the four major Japanese islands is the largest and most populous (home to Tokyo)?",
-    "options": [
-      "Honshu",
-      "Hokkaido",
-      "Shikoku",
-      "Kyushu"
-    ],
-    "answer": 0,
-    "hint": "Main island"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the name of the longest railway tunnel under the sea (~54km) linking Honshu and Hokkaido?",
-    "options": [
-      "Gotthard Base",
-      "The Seikan Tunnel",
-      "Tokyo Bay Aqua",
-      "Laerdal Tunnel"
-    ],
-    "answer": 1,
-    "hint": "Seikan"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which country is located between China and India and is home to Mount Everest?",
-    "options": [
-      "Nepal",
-      "Bhutan",
-      "Kashmir",
-      "Sikkim"
-    ],
-    "answer": 0,
-    "hint": "Kathmandu"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Turkey is NOT a member of which organization?",
-    "options": [
-      "EC (EU)",
-      "OIC",
-      "UN",
-      "ASEAN"
-    ],
-    "answer": 3,
-    "hint": "Southeast Asia association"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the name of the 'First People' and the country known as Aotearoa (land of long white clouds)?",
-    "options": [
-      "New Zealand – Maoris",
-      "New Caledonia – Canacs",
-      "Australia – Aboriginals",
-      "Fiji – Indians"
-    ],
-    "answer": 0,
-    "hint": "Kiwi country"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which Asian country is known as 'Little Japan' and has the 4th largest economy in Asia (Samsung, Hyundai)?",
-    "options": [
-      "Taiwan",
-      "South Korea",
-      "Vietnam",
-      "Philippines"
-    ],
-    "answer": 1,
-    "hint": "Seoul"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the original name of the 'Festival of Colours' celebrated in India?",
-    "options": [
-      "Holi(ka) Fest",
-      "Dussehra",
-      "Navratri",
-      "Durga Puja"
-    ],
-    "answer": 0,
-    "hint": "Holi"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the Chinese island country that has not yet been united with mainland China?",
-    "options": [
-      "Singapore",
-      "Hong Kong",
-      "Macau",
-      "Taiwan"
-    ],
-    "answer": 3,
-    "hint": "Taipei"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "China is constitutionally a “multinational-multilingual ……………… state” with 5 autonomous regions.",
-    "options": [
-      "The decentralized",
-      "United",
-      "Self Government",
-      "Autonomous"
-    ],
-    "answer": 1,
-    "hint": "Single state but multiethnic"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "What is the abbreviated name of the intergovernmental organization for Southeast Asian countries center in Jakarta?",
-    "options": [
-      "SAARC",
-      "ASEAN",
-      "SOC",
-      "APEC"
-    ],
-    "answer": 1,
-    "hint": "ASEAN"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which organization was established by China and Russia to counter US interference in Asia?",
-    "options": [
-      "ACD",
-      "ASEAN",
-      "Shanghai Organization of Cooperation (SOC)",
-      "APEC"
-    ],
-    "answer": 2,
-    "hint": "SCO/SOC"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which country in the southern hemisphere apologized to its indigenous people in 2008 and is home to Aboriginals?",
-    "options": [
-      "New Zealand – Maoris",
-      "New Caledonia – Kanaks",
-      "Australia – Aboriginals",
-      "Fiji - Indians"
-    ],
-    "answer": 2,
-    "hint": "Canberra"
-  },
-  {
-    "chapter": "Chapter 4",
-    "question": "Which Asian group has traffic flowing in the right lane (like Turkey), while others drive on left?",
-    "options": [
-      "Malaysia-Singapore",
-      "India-Pakistan",
-      "China-Koreas-Mongolia-Vietnam",
-      "Thailand-Sri Lanka"
-    ],
-    "answer": 2,
-    "hint": "Mainland East Asia"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "What is the third most populous (334 million) and fourth largest country in the world?",
-    "options": [
-      "Canada",
-      "Mexico",
-      "USA",
-      "Brazil"
-    ],
-    "answer": 2,
-    "hint": "Washington D.C."
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Who are meant by the term 'Hispanics' in the US context?",
-    "options": [
-      "Hispaniola islanders",
-      "Only Mexican immigrants",
-      "Only people of Latin Iberian",
-      "American mestizo and Spanish speakers"
-    ],
-    "answer": 3,
-    "hint": "Broad socio-cultural group"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "What is the name of the tribe of Crazy Horse that issued a declaration of independence from US citizenship in 2007?",
-    "options": [
-      "Na-Dene",
-      "Algongin",
-      "Iroquois",
-      "Siux Lakota"
-    ],
-    "answer": 3,
-    "hint": "Lakota"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "What is the largest Spanish-speaking city (21.7 million) in the world?",
-    "options": [
-      "Sao Paulo",
-      "Rio de Janeiro",
-      "Barcelona",
-      "Ciudad de Mexico"
-    ],
-    "answer": 3,
-    "hint": "Mexico capital"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "What is the acronym for the intergovernmental organization of all 35 American states?",
-    "options": [
-      "NAFTA",
-      "CIDH",
-      "OAS",
-      "ACHR"
-    ],
-    "answer": 2,
-    "hint": "Organization of American States"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Where is the space base for Europeans located (ESA)?",
-    "options": [
-      "Kazakhstan Baikonur",
-      "Texas Houston",
-      "Florida Cape Carnaveral",
-      "French Guiana"
-    ],
-    "answer": 3,
-    "hint": "Kourou"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "After breaking from Great Britain, who became the first president of the United States?",
-    "options": [
-      "George Washington",
-      "Thomas Jefferson",
-      "Abraham Lincoln",
-      "Benjamin Franklin"
-    ],
-    "answer": 0,
-    "hint": "Founding Father"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "The issue of slavery created tension leading to which event in the United States (1861-1865)?",
-    "options": [
-      "The Civil War",
-      "The War of Independence",
-      "The Mexican War",
-      "The Cold War"
-    ],
-    "answer": 0,
-    "hint": "North vs South"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "As a result of which event did the United States actively enter World War II?",
-    "options": [
-      "Attack on Pearl Harbor",
-      "Invasion of Poland",
-      "Atomic bomb",
-      "Battle of Midway"
-    ],
-    "answer": 0,
-    "hint": "1941 Dec 7"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Venezuela's president in the 1970s nationalized which resource to improve the country?",
-    "options": [
-      "Oil",
-      "Coffee",
-      "Gold",
-      "Agriculture"
-    ],
-    "answer": 0,
-    "hint": "Black gold"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Which South American country is closest to the title 'Latin' due to its white majority and European immigrants?",
-    "options": [
-      "Argentina",
-      "Peru",
-      "Bolivia",
-      "Paraguay"
-    ],
-    "answer": 0,
-    "hint": "Buenos Aires"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "What is the name of the highest altitude lake in the world located in the Andes?",
-    "options": [
-      "Titicaca",
-      "Maracaibo",
-      "Superior",
-      "Victoria"
-    ],
-    "answer": 0,
-    "hint": "Andes lake"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Which South American country has Portuguese as its official language?",
-    "options": [
-      "Brazil",
-      "Colombia",
-      "Argentina",
-      "Chile"
-    ],
-    "answer": 0,
-    "hint": "Amazon country"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "The Statue of Liberty holds a torch and a tablet inscribed with which date?",
-    "options": [
-      "July 4, 1776",
-      "July 14, 1789",
-      "Oct 29, 1923",
-      "Sept 11, 2001"
-    ],
-    "answer": 0,
-    "hint": "US Independence"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Ancient indigenous civilisations in the Americas (Maya, Aztec, Inca) originated in which geographical area?",
-    "options": [
-      "Central and South America",
-      "North America",
-      "Caribbean Islands",
-      "The Great Lakes"
-    ],
-    "answer": 0,
-    "hint": "Mesoamerica and Andes"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Which large country spans the Andes, the Amazon plains, and the Pacific/Caribbean coasts, named after a famous explorer?",
-    "options": [
-      "Colombia",
-      "Venezuela",
-      "Ecuador",
-      "Peru"
-    ],
-    "answer": 0,
-    "hint": "Christopher Columbus"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Which 'banana republic' is an unarmed republic governed by permanent democracy?",
-    "options": [
-      "Guatemala",
-      "Honduras",
-      "Costa Rica",
-      "Panama"
-    ],
-    "answer": 2,
-    "hint": "Rich Coast"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "In which Central American country does the indigenous Mayan population outnumber the mestizo population?",
-    "options": [
-      "Guatemala",
-      "El Salvador",
-      "Costa Rica",
-      "Nicaragua"
-    ],
-    "answer": 0,
-    "hint": "Tikal location"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Who is the Uruguayan writer of 'Open Veins of Latin America' known as the 'conscience of humanity'?",
-    "options": [
-      "Octavio Paz",
-      "Gabriel Garcia Marquez",
-      "Vargas Llosa",
-      "Eduardo Galeano"
-    ],
-    "answer": 3,
-    "hint": "Galeano"
-  },
-  {
-    "chapter": "Chapter 5",
-    "question": "Which Italian sailor was the first to arrive in North America (1497) supported by Richard Amerike?",
-    "options": [
-      "Giovanni Caboto (John Cabot)",
-      "Gerard Kremer",
-      "Jacques Cartier",
-      "Kılıç Ali Paşa"
-    ],
-    "answer": 0,
-    "hint": "Cabot"
-  },
-  {
-    "chapter": "Chapter 6",
-    "question": "What is the name of the continental union organization for all 55 African countries (founded 1963)?",
-    "options": [
-      "African Union",
-      "The African Economic Community",
-      "OIC",
-      "Arab League"
-    ],
-    "answer": 0,
-    "hint": "AU"
-  },
-  {
-    "chapter": "Chapter 6",
-    "question": "Where are the headquarters of the African Union located?",
-    "options": [
-      "Egypt-Cairo",
-      "USA-Atlanta",
-      "Ethiopia-Addis Ababa",
-      "RSA-Pretoria"
-    ],
-    "answer": 2,
-    "hint": "Ethiopian capital"
-  },
-  {
-    "chapter": "Chapter 6",
-    "question": "In which regions is the sexist and gendered tradition of female genital mutilation primarily maintained?",
-    "options": [
-      "Andes/Amazon",
-      "Mongolian/Tibetan",
-      "Arctic Peoples",
-      "Sahel and Saharan Tribes"
-    ],
-    "answer": 3,
-    "hint": "African sunbelt"
-  },
-  {
-    "chapter": "Chapter 6",
-    "question": "Which country is home to the Goree island museum and has lived in democracy for 55 years since independence?",
-    "options": [
-      "Mauritania",
-      "Senegal",
-      "Morocco",
-      "Nigeria"
-    ],
-    "answer": 1,
-    "hint": "Dakar capital"
-  },
-  {
-    "chapter": "Chapter 6",
-    "question": "What political movement do the black-white-red-green flag colors represent in 22 Arab countries?",
+    "chapter": "Chapter 8 Questions",
+    "question": "Which influential political movement did these colors (black, white, and red) represent throughout the twentieth century?",
     "options": [
       "Arab Nationalism and Pan-Arabism",
-      "Kahtani ve Adnani Fusion",
-      "Umeyye/Hashimi Unity",
-      "Bedouin and Fellah"
+      "Kahtani and Adnani Arab Fusion",
+      "Umeyye and Hashimi noble families (Quraysh) Unity",
+      "Ittihad of Bedouin and Fellah"
     ],
     "answer": 0,
-    "hint": "Baath/Nasserist era"
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "What is the name of this Arab country (governed by a confessionalist system)?",
+    "options": [
+      "Egypt",
+      "Morocco",
+      "Lebanon",
+      "Syria"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which country’s national flag has this “red crescent and star” inside a white circle become?",
+    "options": [
+      "Algeria",
+      "Azerbaijan",
+      "Libya",
+      "Tunisia"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which country identifies itself as Shqipëria, meaning “Land of the Eagles” , due to its mountainous terrain?",
+    "options": [
+      "Algeria",
+      "Macedonia",
+      "Albania",
+      "Georgia"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 8 Questions",
+    "question": "Which is this highly dynamic and historical city, home to influential political figures and movements?",
+    "options": [
+      "Amritsar",
+      "Peshawer",
+      "Quetta",
+      "Lahore"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "When did plant life begin, which led to an abundance of oxygen? What happened after the increase of oxygen?",
+    "options": [
+      "Plant life began and oxygen became abundant much 0,4 billion (400 million) years ago; then (250 m. y.a.) land life began due to oxygen.",
+      "Plant life began and oxygen became abundant much 0,3 billion years ago, when single block continent “Pangagea” began breaking up.",
+      "While Earth was occuring as a planet, organic plant life started in the same time.",
+      "The emergence of the Atlantic Ocean formation by spliting up and divergence continents."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "What is the ratio of fresh water that sustains life on land to all water in the world?",
+    "options": [
+      "Earth, is contrast to all other planets in the solar system, has an abundant supply of water.",
+      "More than 97 percent of water is saline. 3 percent of water is fresh.",
+      "The polar ice caps lock slightly more than 2 percent of the saltless water as ice.",
+      "Less than 1 percent of the water is fresh water “lakes, rivers, underground water sources to the extent that they are purified by precipitation” ."
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "Why is the \"troposphere\" most important to us?",
+    "options": [
+      "It consists mainly of nitrogen and oxygen, with small amounts of carbon dioxide, hydrogen, water vapor, and various other gases.",
+      "It is the outer layer; gases are very thin here, where auroras and meteors are seen.",
+      "It is the layer of the atmosphere where life exists. All our weather takes place in this layer.",
+      "It protects life on Earth by shielding it from the sun's harmful ultraviolet rays."
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "But how did it happen? What term expresses the negative effect of human beings on the Earth?",
+    "options": [
+      "When chlorine is released from CFCs, it rises to the ozone layer where it destroys ozone molecules. (The Ozone Depletion)",
+      "The profits and interests of international companies are in conflict with international law. (The Human Impact)",
+      "The increase in carbon dioxide is due to emissions from the burning of fossil fuels (coal and oil) by factories, railway engines and cars. (The Greenhouse Effect)",
+      "The impact of humans on the Earth's environment and biosphere has been significant. (The human factor)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "How many km thick are these solid crust plates that we live on the vital surface of this ground?",
+    "options": [
+      "12 km (troposphere)",
+      "5-40 km (rocky layer)",
+      "20-30 km (ozone layer)",
+      "40 km (h.10.-50. km) stratosphere"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "What does this statement by Ibn Khaldun mean?",
+    "options": [
+      "The climate determines the plants (flora)-vegetation, which in turn determines the fauna (animals); ultimately our way of life is determined by this environment.",
+      "This aphorism is no longer valid in modern society, where there are abundant opportunities and overproduction.",
+      "Climate = The word “İklim” (in Ottoman Turkish) means “a certain zone with common geographical conditions” .",
+      "The climate shapes the landforms, dictating how we survive and earn an income."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "Which city is located in the subtropical (very humid and hot, wintery spring) zone, not counted in the \"some kind of Mediterranean climate\" zone of the southern hemisphere?",
+    "options": [
+      "Buenos Aires (Argentina)",
+      "Sydney (Australia)",
+      "Rio de Janerio (Brazil)",
+      "Cape Town (South Africa)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9A Questions",
+    "question": "But why are they so important?",
+    "options": [
+      "These areas experience long periods of darkness and temperatures above freezing for only 2 to 4 months of the year.",
+      "The polar ice cap lies between latitudes of 65° and 90°.",
+      "Melting ice would cause polar peoples to migrate to modern cities.",
+      "They are an essential part of the system that regulates global atmospheric circulation. If global warming reduces their extent, present climatic conditions will change."
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "When did the first Homo species appear?",
+    "options": [
+      "The hominid era began 4,7 million years ago.",
+      "Nearly 2,5 million years ago, the use of stone tools — the defining feature of our own genus, Homo — seems to have emerged.",
+      "Complex organisms generated more oxygen, allowing the ozone shield to form and enabling biotic evolution about 1,300 million years ago.",
+      "It seems that our species, Homo sapiens, evolved in Africa within the last 200,000 years."
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "If an option is not one of these factors, which one?",
+    "options": [
+      "After developing of skills on camp fires, clothing, natural food storage facilities, and primitive cooking methods.",
+      "Once a proliferation of design and an ability to plan ahead (regular hunting and hunt large mammals). Cooking skills.",
+      "Tool assemblages became more specialized and sophisticated. Art, in the form of jewellery, figurines, paintings, and engravings become prevalent.",
+      "Cooking resulted in change of human teeth; large teeth would no longer have been necessary for tearing raw or partially roasted meat."
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "Which was the last habitable land in the world to be reached and settled by humans (– the descendants of Māori people) in 1150 A.D.?",
+    "options": [
+      "Papua New Guinea",
+      "New Zealand",
+      "Greenland",
+      "Hispaniola (Haiti+Dominic)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "Which wild plants first became efficient tamed (domesticated) crops through the involvement of humans in the Fertile Crescent and in China?",
+    "options": [
+      "rice and wheat in China, and barley and wheat in the Fertile Crescent",
+      "maize (corn) and grains on both sides of Asia",
+      "gardening of fruits (orchard) and vegetables in both the West+East Asia plains",
+      "olive and grape (wine) in the Fertile Crescent and rice and wheat in China"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "Following the agricultural revolution, which began with the development of wild crops through cultivation experiments, what other fundamental achievement occurred during this period?",
+    "options": [
+      "The Stone Age came to an end with the invention of bronze. This led to the long-distance trade of raw materials used to make metal tools.",
+      "Humans invented writing in order to record experiments and facilitate communication across time and space.",
+      "The first farm animals to be domesticated (tamed) were pigs, cattle, goats, and sheep.",
+      "14 species out of the 149 known mammals were domesticated."
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "What is the cave complex with the most complete visual rock art and the oldest figurative drawings and painting (besides Altamira and Chauvet) ever discovered in Europe?",
+    "options": [
+      "The Lascaux Caves",
+      "The Yarımburgaz Cave",
+      "The Inceğiz Cave",
+      "The Sulawesi (dolomite) Caves"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "What is the name of the historical period from the fall of the Aegean city-states in 330 BC to the rise of the Roman Empire (and its civilization) in the Eastern Mediterranean in 30 BC?",
+    "options": [
+      "The Age of Alexander the Great",
+      "The Ionian Age",
+      "The Hellenistic Age",
+      "The Pergamum Age"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "Which option correctly matches the impact of the immigrant influx (1) and the lack of disease spread to Africans (2)?",
+    "options": [
+      "(1)terrorizing on slaves // (2)afraid of other tropical infections",
+      "(1)genocide // (2)their immunity to animal parasites",
+      "(1)narcotized and passivated them // (2)army resistance by African tribes",
+      "(1)invasion // (2)health care by white (Arab and European) religious missions"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "What was this invention (that was transferred to West Asian culture)?",
+    "options": [
+      "paper of papyrus",
+      "parchment of tanned goatskin",
+      "baked pulp paper",
+      "printing technique"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "What kind of art remains do we find to allow us to make opinions and comments about the lifestyle and intangible matters of prehistory hunter-gatherers?",
+    "options": [
+      "rock art and movable objects",
+      "only excavation findings in caves",
+      "early symbols, metaphors and images",
+      "remains of stories, songs, and dances"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "The holistic and scientific approach to evaluation of the “Mediterranean world” that began with the works of ………………….. and …………………. does not belong to the distant past.",
+    "options": [
+      "Henri Pirenne and Fernand Braudel",
+      "Panait Istrati and Konstantinos Kavafis",
+      "Halikarnas Balıkçısı and Yorgo Seferis",
+      "Stefanos Yerasimos and Carlo M. Cipolla"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "Finally, in the 4th century BC, a mathematician and astronomer ……………………………. proved that the Earth was spherical and calculated its approximate size.",
+    "options": [
+      "Galileo Galilei – 400 thousand km",
+      "Ptolemy (Batlamyus) – 4 thousand km",
+      "Eratosthenes – 40 thousand km",
+      "Nicolaus Copernicus - 5 thousand km"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 9B Questions",
+    "question": "The legend of “ .......................................... ” is a concise, veiled narrative that alludes to a reality full of hardships experienced by a growing population, class struggles, multilingualism, and disagreements arising from the long distances between imperial city-states.",
+    "options": [
+      "“The Abduction of the Golden Fleece” Legend",
+      "“The Abduction of the Phoenician Princess Europa” Legend",
+      "“The Tower of Babel” Legend",
+      "“The Hanging Gardens of Babylon” Legend"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "Which of the following is not one of these factors (that prepared Britain for industrial development)?",
+    "options": [
+      "Britain was an isolated island country, free from the wars that destroyed resources on the continent.",
+      "The accumulation and concentration of capital for investment, as well as the growing national and imperial mercantilist power.",
+      "Artisans and practical scientists had a high level of expertise in technologies, such as machinery.",
+      "Improvements in inland transport, including rivers, canals and roads, enabled goods to be distributed rapidly."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "The first phase of the Industrial Revolution 1.0 took place between the …………. and the ……………. .",
+    "options": [
+      "17th century ……. 20th century",
+      "1st ……. 2nd world wars",
+      "1780s …… 1830s",
+      "colonialism …….. decolonization"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "What were the key factors of the second phase of the Industrial Revolution 1.0?",
+    "options": [
+      "The use of electricity and electrical energy in the textile industry and transportation.",
+      "Iron and steel-based industries and steam engines",
+      "Steam power in textile factories and the colonial system",
+      "The railroad network helped integrate people into nation-states"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "(Two missing words for Industrial Revolution 2.0)",
+    "options": [
+      "electricity / electrical",
+      "nuclear energy / radioactivity",
+      "soft engineering / engine",
+      "steam power / steam (vapour)"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "These …………………………represent the Industrial Revolution 4.0 .",
+    "options": [
+      "nuclear technology",
+      "cyber-physical systems",
+      "Industry 5.0",
+      "globalization"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "Which of the following events is not one of the initial factors (that caused the beginning) of the modern political era?",
+    "options": [
+      "The English Revolution of the 17th century",
+      "The French Revolution of 1789",
+      "The Industrial Revolution",
+      "World War I (1914-1918)"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "Since then, the number of nation-states has grown, and today there are ................ nation-states and ................ territories on the world's political map.",
+    "options": [
+      "195 nation- states / 65 territories",
+      "200 nation-states / null (unclaimed empty lands)",
+      "developed nation-states/underdeveloped territories",
+      "many nation-states / numerous territories"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "What do we mean by the term \"nation-state\"? It is helpful to think of a nation-state as a combination of three elements:",
+    "options": [
+      "people / organization / land",
+      "nation / state / territory",
+      "nation / execution and legislation / homeland",
+      "society / democracy / national land"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "This paragraph explains...",
+    "options": [
+      "tricontinental liberalization (i.e. independence) took place in the modern era.",
+      "colonialization and then decolonization took place in the modern period (19th-20th century).",
+      "nation-states were established in Mesoamerica and South America in the 19th century, whereas decolonisation in Asia and Africa took more than a century after the Second World War.",
+      "imperialist exploitation is the structural mechanism of world capitalism."
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "What does this significant difference in approach to illustration and painting style mean?",
+    "options": [
+      "The modern view is to evaluate nature, life and the individual as they are experienced in the moment.",
+      "The objective is to present both urban and individual life, and to do so in a way that is aesthetically pleasing.",
+      "Transition from noble and sacred fantasy tales to civic realism",
+      "Impressionistic depiction in landscape art"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "From the 1960s to the present day, which city has been the first place to implement new generations of human rights and freedoms?",
+    "options": [
+      "Rotterdam",
+      "Antwerp (Anvers)",
+      "Amsterdam",
+      "Liverpool"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "It is a term that has been applied to the rejection of the classical approach in the art of every society. However, …………………… is the name of a movement with distinctive features...",
+    "options": [
+      "Romantic",
+      "Gothic",
+      "Baroque",
+      "Neo-Classical"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "What is the name of the National Museum of Spain?",
+    "options": [
+      "Galleria Uffizi e Borghese Museo",
+      "Casa Museo del Antoni Gaudi",
+      "Centre national des arts et de la culture Pompidou",
+      "Museo Nacional del Prado",
+      "Palacio de Gaudi en Astorga"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "To mark the 500th anniversary of his death, UNESCO has declared 2020 the year of commemoration. Who was this painter/architect?",
+    "options": [
+      "Leonardo da Vinci",
+      "Sandro Boticelli",
+      "Michelangelo",
+      "Raffaello Sanzio (Raphael)"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "Which of the three Eastern Mediterranean (Levant) port cities has remained luminous over the last centuries?",
+    "options": [
+      "Saida (Sidon) – Heraklion (Crete) - Haifa (Akka)",
+      "Alexandria (Iskenderiye) - Izmir (Smyrna) - Beirut",
+      "Dimyat (Egypt) – Istanbul (Konstantinıyye) - Thessaloniki (Selanik)",
+      "Miletus – Ephesus - Athens (Piraeus)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "This success was based on the professional organisation of fairs, galleries, museums, language training and editorial structures by the administration and the bourgeoisie... What city is this?",
+    "options": [
+      "London",
+      "Milan",
+      "Vienna",
+      "Paris"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "Which part of the national state has the authority to make laws?",
+    "options": [
+      "cabinet and senate",
+      "grand congress",
+      "advisory chamber",
+      "parliament (assembly)"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 10 Questions",
+    "question": "What is the term of the crude, reactionary mindset and behavior based on superstitions that opposes viewing people as equal individuals with differences?",
+    "options": [
+      "Megalomania (egocentrism)",
+      "Racism",
+      "Male Sexism",
+      "Hate crime"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "However, as socioeconomic development progressed, this trend reversed and fertility rates declined; why?",
+    "options": [
+      "Children were removed from the workforce and placed in a long school system; thus, raising children became an expensive lifestyle choice for adults.",
+      "Sexual awareness and precautions increased, and childbearing (number of children) was no longer left to chance.",
+      "Modern adults prefer to spend their lives engaged in productive work rather than being preoccupied with raising many children.",
+      "In the past, due to high infant mortality rates, parents favored having more children to avoid being childless."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Under these circumstances, through what methods do states—whose industries and technologies heavily rely on the dynamism of the arms industry—stimulate their economies?",
+    "options": [
+      "By engaging in various military interventions and operations, thereby deploying proxy war chiefs.",
+      "By making direct capital investments in innovations within the military and arms industries.",
+      "By instigating regional conflicts worldwide through space research and advanced technical satellite tools.",
+      "By atomizing and fragmenting everything regarding the social structure while advancing capitalist integration."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which of these trends does not carry a negative implication?",
+    "options": [
+      "Long life expectancy",
+      "Overexploitation of non-renewable ocean resources on a massive scale",
+      "Striking waste of land resources",
+      "Dramatic population growth"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "What is the sea law term that grants a coastal state jurisdiction and rights over marine life and seabed minerals beyond its 12-mile territorial waters?",
+    "options": [
+      "Exclusive Economic Zone (EEZ)",
+      "UN Convention on the Law of the Sea (UNCLOS)",
+      "Extension of the continental shelf",
+      "The principle of protecting state interests"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "What mineral reserves are located on the island? What is the official name of the island in the eyes of France, and what is the name of the resisting indigenous people?",
+    "options": [
+      "Cobalt and nickel; New Caledonia (Nouvelle-Calédonie) – Kanak people",
+      "Shrimp and oil; Overseas Caledonia (Calédonie) – Caldosche people",
+      "Manganese nodules; Guadeloupe – West Indies",
+      "Natural gas; Martinique – Caribbean people"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Based on these situational assessments, with which of the following sentences would it not be reasonable to continue the above paragraph?",
+    "options": [
+      "In order to prevent devastation in nearby seas, industrial fishing must be halted immediately and only fishing in the Southern Ocean surrounding the most distant Antarctica should be permitted.",
+      "The continuation of the current trend will lead to the irreversible depletion of global fish stocks.",
+      "This exploitation, uncurbed by strict quotas, deprives poor coastal communities of their fundamental vital food sources.",
+      "This situation points to a destructive \"overcapacity, \" which means operating with \"highly technically equipped vessels to catch much fewer fish."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which two states, missing from the descriptive paragraph despite being members of the G7, should fill in the blanks above?",
+    "options": [
+      "Italy, China",
+      "Russia, China",
+      "India, China",
+      "Italy, Canada"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which of the following is the only state (country) from the African continent that takes part as a founding member within the G21?",
+    "options": [
+      "Nigeria",
+      "Egypt",
+      "Congo Democratic Republic",
+      "Republic of South Africa"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "What is the main reason for migration (escape/leave, the modern exodus) from the Global South to the Global North, besides wars and violence in people's daily social lives?",
+    "options": [
+      "Millions of Southerners are looking for work, fleeing unemployment and emigrating in order to earn a decent living and secure their future.",
+      "Jobs involving harmful processes are being transferred to the South, which increases the risk of poisoning and renders the area uninhabitable.",
+      "Freedom is not permitted due to authoritarianism and totalitarianism.",
+      "Living in the North is all about money, whereas living in the South comes at a high social cost."
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "This is called ........................................................... .",
+    "options": [
+      "Liberal economic globalization",
+      "One-world integration (human idealism)",
+      "A Confederation of nation- states (a new formed UN)",
+      "Communist Internationalism"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "In which political geography and demographics category does this information and its demographic indicators fall?",
+    "options": [
+      "Population Dynamics",
+      "Ever-Increasing Rate and Overpopulation",
+      "Study of Demographic Movements",
+      "Population Growth"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Accordingly, which third-ranked country, hosting approximately 13 million immigrants and where more than one-third of its total national population consists of foreign-born individuals, should fill in the blank in the text?",
+    "options": [
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Canada",
+      "Russia"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which country is this that exports this partially and specially trained labor to world markets?",
+    "options": [
+      "The Philippines",
+      "Indonesia",
+      "South Korea",
+      "Vietnam"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which of the following is the fundamental term used in perceptual geography to express this phenomenon of “personalized geographic imaginary mapping” based on cognitive distortions of memory described in the prompt?",
+    "options": [
+      "Cartographic Illusion",
+      "Spatial Autocorrelation",
+      "Toponymic Projection",
+      "Mental Map (Cognitive Map)"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Accordingly, which of the following is the country that represents the focus of demographic growth and should fill in the blank in the paragraph?",
+    "options": [
+      "Meksika",
+      "Brazil",
+      "Iran",
+      "Pakistan"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which of the following global politico-economic organizations should fill in the blank at the beginning of the introductory text?",
+    "options": [
+      "Group-21 (G-21)",
+      "The Global South",
+      "BRIECISA",
+      "BRICS"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 11 Questions",
+    "question": "Which of the following is the industrial sector referred to in the politico-economic analysis and company lists above, which directly determines global power balances?",
+    "options": [
+      "Arms Industry",
+      "Electric Automotive Industry",
+      "Oil and Natural Gas Industry",
+      "Information Systems Industry"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Today, there are around 500 intergovernmental organizations, including the United Nations (UN), the World Health Organization (WHO), the North Atlantic Treaty Organization (NATO) and …………………. .",
+    "options": [
+      "Dream Change Coalition",
+      "Greenpeace",
+      "Medecins sans Frontieres",
+      "Food and Agricultural Organization"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which group of states below are members of the Council of Europe (CE) but not the European Union (EU)?",
+    "options": [
+      "Norway, Iceland, Switzerland, Turkey",
+      "Poland, Litvania, Estonia, Letonia",
+      "Malta, Slovenia, Slovakia, Croatia",
+      "Ireland, Portugal, Denmark, Finland"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which of the following options does NOT refer to these events?",
+    "options": [
+      "New-nationalist attitudes (extreme right blocks, Brexit, etc) disrupting the social and supranational development dynamics of the EU",
+      "Imposing quotas for Chinese exports, and problematizing China's Hong Kong, Uyghur, Tibet, Taiwan issues",
+      "Trump’s containment wall policy against immigration from the South",
+      "The Climate Crisis Movement"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "There are individual-priority libertarians emphasizing experimentalism who actively resist this global cultural ……………………. phenomenon.",
+    "options": [
+      "heterogenity",
+      "homogenization",
+      "multiculturalism",
+      "discrimination"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Who is this girl with Asperger's, and what is the title of her book that addresses the \"Sixth Mass Extinction\" occurring in the human age and by human hands?",
+    "options": [
+      "Jeanne d’Arc 21.c.; Extinction Rebellion XR",
+      "Ivenka Trump; My Pop Papa, Mr. Trump",
+      "Marlo Morgan, Mutant Message Down Under",
+      "Greta Thunberg, No One is Too Small To Make A Difference"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Who is this Nobel Peace Prize-winning girl campaigning for girls' education, and which country is the historical heir to the Indus civilization?",
+    "options": [
+      "Narges Ewa, Afghanistan",
+      "Ayodele Maryam, Nigeria",
+      "Malala Yousafzai, Pakistan",
+      "Shirin Ebadi / Iran"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "What is the primary meaning and purpose of this newest global campaign?",
+    "options": [
+      "To ensure contentment with existing arsenals (quotas) through the Nuclear Non- Proliferation Treaty",
+      "To ensure global security through the Nuclear Power Plants Safety Agreement",
+      "To destroy all nuclear weapons within a short period through the Treaty on the Prohibition of Nuclear Weapons",
+      "To prohibit the production of nuclear weapons \"except for 7 countries\" through the Treaty on the Establishment of Nuclear- Weapon-Free Zones"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "What does this concept of combined “state and market surveillance” truly imply under the guise of transparency, openness, and accessibility?",
+    "options": [
+      "Supervision",
+      "Panopticism",
+      "Influencer",
+      "Public Voyeurism"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which words stand for ESC in the UN ESC O spelling of the abbreviation?",
+    "options": [
+      "United Nations Educational, Sports, Cultural Organization",
+      "Union Nations Educational, Scientific, Cooperative Organization",
+      "Universal Nations Educational, Social, Communicative Organization",
+      "United Nations Educational, Scientific, Cultural Organization"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which of the following is an organization not affiliated with (related to) the UN system?",
+    "options": [
+      "Food and Agriculture Organization (FAO)",
+      "World Health Organization (WHO)",
+      "North Atlantic Treaty Organization (NATO)",
+      "International Labour Organization (ILO)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "In this scenario, which countries representing much larger populations would France, Great Britain, and Russia have to cede their places to?",
+    "options": [
+      "India, Indonesia, Pakistan",
+      "Mexico, Turkey, India",
+      "Japan, Germany, Korea",
+      "Canada, Nigeria, Australia"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Considering this governance success and the historical legacy of New Zealand— which holds the title of being the first country to grant women the right to vote (1893)— which of the following deductions regarding the link between \"Crisis Management and Female Leadership\" is the most accurate assessment?",
+    "options": [
+      "Female politicians can only succeed in social crises such as health and environment; traditional male-dominated leadership models are required in economic crisis management.",
+      "New Zealand's success is entirely due to its geographical position as an island nation; the leader's inclusive communication style toward social minorities or the speed of decision-making has no structural impact on the process.",
+      "The \"inclusive/integrative language\" exhibited by female leaders during times of crisis, which embraces compassion, empathy, and indigenous cultures, makes it easier for the public to adopt rational and scientific decisions against populist policies.",
+      "Jacinda Ardern’s popularity is merely an individual communication success; it has no connection with New Zealand’s historical democratic maturity and legacy of gender equality."
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "(1) ?% New European citizens whose non-European origins in EUROPE; (2) ?% Non- whites (Hispanics, African Americans, Asians, First Nations and others) in USA",
+    "options": [
+      "(1)15% in Europe, (2) 40% in the USA",
+      "(1) 5% in Europe, (2) 40% in the USA",
+      "(1) 40% in Europe, (2) 15% in the USA",
+      "(1) 10% in Europe, (2) 25% in the USA"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "(Missing tourist numbers and countries)",
+    "options": [
+      "800 million – a few",
+      "0.5 billion – 7 rich",
+      "1.5 billion – 20",
+      "0.9 billion – 195"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which of the following is this lifestyle and diet mentioned above?",
+    "options": [
+      "Vegetarian Diet",
+      "Raw, Gluten-Free, and Lactose-Free Diet",
+      "Molecular and Fusion Cuisine",
+      "Vegan Diet"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Based on the text and literary theory, which of the following is the INCORRECT definition of “dystopia”?",
+    "options": [
+      "The term “dystopia” refers to negative utopian social narratives in novels and stories.",
+      "Dystopia is a term used to describe a negative and frightening vision of the future.",
+      "Dystopia implies the projection or planning of a deeply negative future.",
+      "Dystopia is a speculative narrative of an ideal, perfect, and harmonious social life that does not actually exist in reality, designed primarily through science fiction."
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which Turkic country in Asia has been recognized by the international community (UN 1995) as having permanent neutral country status?",
+    "options": [
+      "Uzbekistan",
+      "Turkmenistan",
+      "Kazakhstan",
+      "Kyrgyzstan"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Which city is this that hosted the Mediterranean Games in the past but is not located on the Mediterranean coast?",
+    "options": [
+      "Las Palmas de Gran Canary (Spain)",
+      "Le Havre on the English Channel (France)",
+      "Casablanca (Morocco)",
+      "Suez (Egypt)",
+      "Trabzon on the Black Sea (Turkey)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "According to the text, which of the following is the primary cause of failure and the most criticized focus in the global fight against the climate crisis?",
+    "options": [
+      "Turkey’s failure to present a clear timetable for shutting down coal-fired power plants in its strategic documents.",
+      "The Global North’s (the Wealthy Club) allocated climate finance budget falling far behind the actual needs.",
+      "Fossil fuel and nuclear energy lobbies following the conferences more closely than the leaders of wealthy nations.",
+      "The requirement brought by the Paris Agreement for countries to update their greenhouse gas commitments every five years."
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "Insulting people by viewing their non-criminal, existential states and identities as flawed is legally considered a ............................. .",
+    "options": [
+      "Misogynistic crime",
+      "Perfectionist obsession",
+      "Autoritarian fanaticism",
+      "Hate crime"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 12 Questions",
+    "question": "In this context, what is the core intellectual concern and main focus of the author in writing his novel A Bend in the River?",
+    "options": [
+      "He criticizes the \"culture of invasion\" that obliterates the preceding culture, whether it stems from external or internal conquerors.",
+      "He finds the damage inflicted on cultural identity by indigenous governments in India and South America to be more severe than that caused by colonial administrations.",
+      "He seeks to demonstrate that the roots of artificial nationalist indigenous governments turning into oppressive regimes lie within the conformist mindsets of the colonial era.",
+      "He criticizes all ideological institutions in the Global South that lead to the destruction of identity and wither away imagination, thought, and empirical curiosity."
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "What is the name of this city that is not in Germany?",
+    "options": [
+      "Danzig (Gdansk)",
+      "Cologne (Köln)",
+      "Vienna",
+      "Wraclaw (Breslau)",
+      "Stettin (Szczecin)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "The name of one of the ethnic peoples of the Caucasus is asked for here.",
+    "options": [
+      "Abkhazian",
+      "Georgian",
+      "Avar",
+      "Megrel-Svan",
+      "Osset",
+      "Chechen",
+      "Kalmyk"
+    ],
+    "answer": 6,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "Is the most populous island in the world?",
+    "options": [
+      "Greenland",
+      "Britain",
+      "Java",
+      "Australia",
+      "Sumatra",
+      "Honshu"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "Which country on the European continent is the southernmost where snow, storms and fog are never seen?",
+    "options": [
+      "Portugal",
+      "Malta",
+      "Sicily",
+      "Gibraltar (Cebelitarık)",
+      "Monaco",
+      "Pantelleria"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "Which of the following is an organization not affiliated with or related to the UN?",
+    "options": [
+      "Food and Agriculture Organization (FAO)",
+      "World Health Organization (WHO)",
+      "North Atlantic Treaty Organization (NATO)",
+      "International Labour Organization (ILO)",
+      "International Civil Aviation Organization (ICAO)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "It is the largest and most populous Spanish-speaking city in the world. Can you name this city, which is located outside the territory of Spain?",
+    "options": [
+      "Buenos Aires",
+      "Rio de Janerio",
+      "Sao Paulo",
+      "Ciudad de Mexico",
+      "Madrid de Castilla"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "Of the four states that are not currently full members of the UN, two are recognized by the largest number of states (157 members and 121 members, respectively), and one by 46 members. Two of these states emerged in the international community in the 1970s with the aim of becoming independent states, and one of them was admitted to the UN as an observer state in 2012. The other state has been a member of the continental union of states since its foundation. Which of these four countries has the 3rd highest number of government recognitions?",
+    "options": [
+      "Abkhazia Republic (de facto)",
+      "Kosovo Republic",
+      "Sahrawi Arab Democratic Republic",
+      "Palestine"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "Montesquieu (1748) opposed the slave trade. The 'Friends of the Black Association' was founded in Paris. The slave trade was banned by the Revolution (Danton, 1794) and this prohibition was included in the Declaration of Human Rights. The first Black republic was established in the part of the Caribbean island of Hispaniola held by France, which was inhabited by Black slaves. This state symbolized the freedom, equality and fraternity of the French Revolution in the New World. Can you guess which country this is? (Hint: it is the largest French-speaking country in the Americas.)",
+    "options": [
+      "Dominican Republic",
+      "Haiti",
+      "Guadeloupe",
+      "Jamaica",
+      "Liberia",
+      "French Guyana"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "The use of national state flags is a modern practice. Initially applied to ships for ease of identification on foreign voyages, the practice of a single (uniform) flag was adopted for nation states in the modern era. In the Caucasus and southern Mediterranean regions, which were influenced by Ottoman and Turkish history, newly founded states adopted the crescent and star on their flags. One country chose the Ottoman naval and maritime flag as its national flag after liberating itself from French occupation. Which country adopted this red and white flag bearing a red crescent and star as its national flag?",
+    "options": [
+      "Malaysia",
+      "Algeria",
+      "Azerbaijan",
+      "Libya",
+      "Tunisia",
+      "Lebanon"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "chapter": "Additional Final Questions",
+    "question": "47 countries are members of the Council of Europe. Russia and Turkey are Eurasian countries and members of the Council of Europe. Cyprus, Georgia, Azerbaijan and Armenia, which are physically located entirely in Asia, are members of the Council of Europe. One state is not included in the European system because it has not abolished the death penalty, which makes the right to life questionable. Which European country is still not a member of the Council of Europe?",
+    "options": [
+      "United Kingdom",
+      "Montenegro",
+      "Belarus",
+      "Switzerland",
+      "Iceland"
+    ],
+    "answer": 2,
+    "hint": ""
   }
 ];
