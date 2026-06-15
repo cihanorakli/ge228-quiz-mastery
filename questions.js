@@ -536,7 +536,7 @@ const questionsData = [
       "The İnceğiz Cave",
       "The Sulawesi (dolomite) Caves"
     ],
-    "answer": 3,
+    "answer": 0,
     "hint": ""
   },
   {
@@ -1292,7 +1292,7 @@ const questionsData = [
       "He seeks the roots of oppressive nationalist indigenous governments in colonial-era conformist mindsets",
       "He criticizes all Global South ideological institutions that destroy identity and wither imagination, thought and empirical curiosity"
     ],
-    "answer": 3,
+    "answer": 2,
     "hint": ""
   }
 ];
