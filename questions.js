@@ -9,7 +9,8 @@ const questionsData = [
       "Nenets – Nenetsia"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 7",
@@ -21,7 +22,8 @@ const questionsData = [
       "Took it over from Canada by securing the rights of the Eskimo and Aleut peoples"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 7",
@@ -33,7 +35,8 @@ const questionsData = [
       "Australia"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 7",
@@ -45,7 +48,8 @@ const questionsData = [
       "Nenets"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 7",
@@ -57,7 +61,8 @@ const questionsData = [
       "Yakutia (Yakutistan), diamond"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 7",
@@ -69,7 +74,8 @@ const questionsData = [
       "Faroe Islands"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -81,7 +87,8 @@ const questionsData = [
       "India"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -93,7 +100,8 @@ const questionsData = [
       "Dubai"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -105,7 +113,8 @@ const questionsData = [
       "Kyrgyzstan"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -117,7 +126,8 @@ const questionsData = [
       "Altai"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -129,7 +139,8 @@ const questionsData = [
       "Mashreq"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -141,7 +152,8 @@ const questionsData = [
       "Mecca"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -153,7 +165,8 @@ const questionsData = [
       "North Macedonia"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -165,7 +178,8 @@ const questionsData = [
       "Oman"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -177,7 +191,8 @@ const questionsData = [
       "TURAN Culture Federation"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -189,7 +204,8 @@ const questionsData = [
       "Generalife (Cennet ül arif)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -201,7 +217,8 @@ const questionsData = [
       "Uzbekistan"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -213,7 +230,8 @@ const questionsData = [
       "Mecca"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -225,7 +243,8 @@ const questionsData = [
       "United Arab Emirates"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -237,7 +256,8 @@ const questionsData = [
       "Palestine (Devlet-ü Filastîn)"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -249,7 +269,8 @@ const questionsData = [
       "Qom (Kum)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -261,7 +282,8 @@ const questionsData = [
       "Syria"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -273,7 +295,8 @@ const questionsData = [
       "Niger"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -285,7 +308,8 @@ const questionsData = [
       "Dobruja (Dobrich) dialect"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -297,7 +321,8 @@ const questionsData = [
       "Komotini, Xanthi in Western Thrace"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -309,7 +334,8 @@ const questionsData = [
       "Berlin"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -321,7 +347,8 @@ const questionsData = [
       "Ittihad of Bedouin and Fellah"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -333,7 +360,8 @@ const questionsData = [
       "Syria"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -345,7 +373,8 @@ const questionsData = [
       "Tunisia"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -357,7 +386,8 @@ const questionsData = [
       "Georgia"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 8",
@@ -369,7 +399,8 @@ const questionsData = [
       "Lahore"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -381,7 +412,8 @@ const questionsData = [
       "The Atlantic Ocean formed 65 million years ago; amphibic herbivores then developed"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -393,7 +425,8 @@ const questionsData = [
       "Less than 1 percent of water is fresh water (lakes, rivers, underground sources renewed by precipitation)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -405,7 +438,8 @@ const questionsData = [
       "It protects life by shielding Earth from the sun's harmful ultraviolet rays"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -417,7 +451,8 @@ const questionsData = [
       "The impact of humans on environment and biosphere — The human factor"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -429,7 +464,8 @@ const questionsData = [
       "40 km (stratosphere)"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -441,7 +477,8 @@ const questionsData = [
       "Climate shapes the landforms, dictating how we survive and earn an income"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -453,7 +490,8 @@ const questionsData = [
       "Cape Town (South Africa)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-A",
@@ -465,7 +503,8 @@ const questionsData = [
       "They are an essential part of the system regulating global atmospheric circulation; if they shrink, climatic conditions change"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -477,7 +516,8 @@ const questionsData = [
       "Homo sapiens evolved in Africa within the last 200,000 years (if Earth time were one day, Hss appeared in the final seconds)"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -489,7 +529,8 @@ const questionsData = [
       "Cooking resulted in change of human teeth; large teeth no longer necessary for tearing raw meat"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -501,7 +542,8 @@ const questionsData = [
       "Hispaniola (Haiti+Dominican)"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -513,7 +555,8 @@ const questionsData = [
       "Olive and grape in the Fertile Crescent, rice in China"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -525,7 +568,8 @@ const questionsData = [
       "14 of 149 known mammals were domesticated; the last was the one-humped camel (~1500 BC)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -537,7 +581,8 @@ const questionsData = [
       "The Sulawesi (dolomite) Caves"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -549,7 +594,8 @@ const questionsData = [
       "The Pergamum Age"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -561,7 +607,8 @@ const questionsData = [
       "(1) invasion // (2) health care by white religious missions"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -573,7 +620,8 @@ const questionsData = [
       "Printing technique"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -585,7 +633,8 @@ const questionsData = [
       "Remains of stories, songs and dances"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -597,7 +646,8 @@ const questionsData = [
       "Stefanos Yerasimos and Carlo M. Cipolla"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -609,7 +659,8 @@ const questionsData = [
       "Nicolaus Copernicus – 5 thousand km"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 9-B",
@@ -621,7 +672,8 @@ const questionsData = [
       "The Hanging Gardens of Babylon"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -633,7 +685,8 @@ const questionsData = [
       "Improvements in inland transport (rivers, canals, roads) enabled rapid distribution of goods"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -645,7 +698,8 @@ const questionsData = [
       "colonialism – decolonization"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -657,7 +711,8 @@ const questionsData = [
       "The railroad network integrating people into nation-states"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -669,7 +724,8 @@ const questionsData = [
       "steam power / steam (vapour)"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -681,7 +737,8 @@ const questionsData = [
       "globalization"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -693,7 +750,8 @@ const questionsData = [
       "World War I (1914-1918)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -705,7 +763,8 @@ const questionsData = [
       "many / numerous"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -717,7 +776,8 @@ const questionsData = [
       "society / democracy / national land"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -729,7 +789,8 @@ const questionsData = [
       "Imperialist exploitation is the structural mechanism of world capitalism"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -741,7 +802,8 @@ const questionsData = [
       "Impressionistic depiction in landscape art"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -753,7 +815,8 @@ const questionsData = [
       "Liverpool"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -765,7 +828,8 @@ const questionsData = [
       "Neo-Classical"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -777,7 +841,8 @@ const questionsData = [
       "Museo Nacional del Prado"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -789,7 +854,8 @@ const questionsData = [
       "Raffaello Sanzio (Raphael)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -801,7 +867,8 @@ const questionsData = [
       "Miletus – Ephesus – Athens (Piraeus)"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -813,7 +880,8 @@ const questionsData = [
       "Paris"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -825,7 +893,8 @@ const questionsData = [
       "parliament (assembly)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 10",
@@ -837,7 +906,8 @@ const questionsData = [
       "Narcissistic egoism"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -849,7 +919,8 @@ const questionsData = [
       "In the past, high infant mortality made parents favor having more children"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -861,7 +932,8 @@ const questionsData = [
       "By atomizing the social structure while advancing capitalist integration"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -873,7 +945,8 @@ const questionsData = [
       "Dramatic population growth"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -885,7 +958,8 @@ const questionsData = [
       "The principle of protecting state interests"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -897,7 +971,8 @@ const questionsData = [
       "Natural gas; Martinique – Caribbean people"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -909,7 +984,8 @@ const questionsData = [
       "This points to a destructive 'overcapacity'"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -921,7 +997,8 @@ const questionsData = [
       "Italy, Canada"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -933,7 +1010,8 @@ const questionsData = [
       "Republic of South Africa"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -945,7 +1023,8 @@ const questionsData = [
       "Living in the North being only about money, vs. high social cost in the South"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -957,7 +1036,8 @@ const questionsData = [
       "Communist Internationalism"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -969,7 +1049,8 @@ const questionsData = [
       "Population Growth"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -981,7 +1062,8 @@ const questionsData = [
       "Russia"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -993,7 +1075,8 @@ const questionsData = [
       "Vietnam"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -1005,7 +1088,8 @@ const questionsData = [
       "Mental Map (Cognitive Map)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -1017,7 +1101,8 @@ const questionsData = [
       "Pakistan"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -1029,7 +1114,8 @@ const questionsData = [
       "BRICS"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 11",
@@ -1041,7 +1127,8 @@ const questionsData = [
       "Information Systems Industry"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1053,7 +1140,8 @@ const questionsData = [
       "Food and Agricultural Organization (FAO)"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1065,7 +1153,8 @@ const questionsData = [
       "Ireland, Portugal, Denmark, Finland"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1077,7 +1166,8 @@ const questionsData = [
       "The Climate Crisis Movement"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1089,7 +1179,8 @@ const questionsData = [
       "discrimination"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1101,7 +1192,8 @@ const questionsData = [
       "Greta Thunberg; No One is Too Small To Make A Difference"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1113,7 +1205,8 @@ const questionsData = [
       "Shirin Ebadi, Iran"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1125,7 +1218,8 @@ const questionsData = [
       "To prohibit production 'except for 7 countries' via nuclear-weapon-free-zone treaties"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1137,7 +1231,8 @@ const questionsData = [
       "Public Voyeurism"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1149,7 +1244,8 @@ const questionsData = [
       "Educational, Scientific, Cultural"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1161,7 +1257,8 @@ const questionsData = [
       "International Labour Organization (ILO)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1173,7 +1270,8 @@ const questionsData = [
       "Canada, Nigeria, Australia"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1185,7 +1283,8 @@ const questionsData = [
       "Ardern's popularity is merely individual communication success with no link to historical maturity"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1197,7 +1296,8 @@ const questionsData = [
       "(1) 10% in Europe, (2) 25% in the USA"
     ],
     "answer": 0,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1209,7 +1309,8 @@ const questionsData = [
       "0.9 billion – 195"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1221,7 +1322,8 @@ const questionsData = [
       "Vegan Diet"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1233,7 +1335,8 @@ const questionsData = [
       "Dystopia is a speculative narrative of an ideal, perfect, harmonious society"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1245,7 +1348,8 @@ const questionsData = [
       "Kyrgyzstan"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1257,7 +1361,8 @@ const questionsData = [
       "Suez on the Red Sea (Egypt) / Trabzon on the Black Sea (Turkey)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1269,7 +1374,8 @@ const questionsData = [
       "The Paris Agreement requirement to update commitments every five years"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1281,7 +1387,8 @@ const questionsData = [
       "Hate crime"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 12",
@@ -1293,7 +1400,8 @@ const questionsData = [
       "He criticizes all Global South ideological institutions that destroy identity and wither imagination, thought and empirical curiosity"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1306,7 +1414,8 @@ const questionsData = [
       "Madrid de Castilla"
     ],
     "answer": 3,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1318,7 +1427,8 @@ const questionsData = [
       "Palestine (Devlet-i Filastîn) (= Filistin)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1332,7 +1442,8 @@ const questionsData = [
       "French Guyana"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1346,7 +1457,8 @@ const questionsData = [
       "Lebanon"
     ],
     "answer": 4,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1359,7 +1471,8 @@ const questionsData = [
       "Iceland"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1372,7 +1485,8 @@ const questionsData = [
       "Stettin (Szczecin)"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1387,7 +1501,8 @@ const questionsData = [
       "Kalmyk"
     ],
     "answer": 4,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1401,7 +1516,8 @@ const questionsData = [
       "Honshu"
     ],
     "answer": 2,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1415,7 +1531,8 @@ const questionsData = [
       "Pantelleria"
     ],
     "answer": 1,
-    "hint": ""
+    "hint": "",
+    "course": "GE228"
   },
   {
     "chapter": "Chapter 13",
@@ -1428,6 +1545,707 @@ const questionsData = [
       "International Civil Aviation Organization (ICAO)"
     ],
     "answer": 2,
+    "hint": "",
+    "course": "GE228"
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the primary feedstock for 1st and 2nd generation biodiesel production?",
+    "options": [
+      "Coal derivatives",
+      "Ethanol",
+      "Petroleum",
+      "Plant oils, animal fats, and used cooking oils",
+      "Natural gas"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which of the following is a key advantage of biodiesel?",
+    "options": [
+      "It is non-toxic and biodegradable",
+      "It causes global warming",
+      "It depletes food resources",
+      "It emits more pollutants",
+      "It is non-renewable"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which molecule is one of the basic units of a triglyceride molecule?",
+    "options": [
+      "Ethanol",
+      "Ethylene glycol",
+      "Methanol",
+      "Glycerin",
+      "Butanol"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the functional group present at the end of a fatty acid chain?",
+    "options": [
+      "Carbonyl (C=O)",
+      "Carboxyl (-COOH)",
+      "Amine (-NH2)",
+      "Hydroxyl (-OH)",
+      "Ether (-O-)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the catalyst typically used in alkaline transesterification?",
+    "options": [
+      "Aluminum sulfate",
+      "Sulfuric acid (H2SO4)",
+      "Sodium hydroxide (NaOH)",
+      "Hydrochloric acid (HCl)",
+      "Zinc oxide (ZnO)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which by-product is generated during biodiesel production?",
+    "options": [
+      "Acetone",
+      "Glycerin",
+      "Methane",
+      "Formaldehyde",
+      "Ethanol"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What physical property of biodiesel indicates its readiness to auto ignite in a diesel engine?",
+    "options": [
+      "Cetane number",
+      "Kinematic viscosity",
+      "Flash point",
+      "Cloud point",
+      "Pour point"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What process is used to remove impurities like methanol from biodiesel after production?",
+    "options": [
+      "Thermal cracking",
+      "Fractional distillation",
+      "Washing with water",
+      "Centrifugation",
+      "Filtration through sand"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the role of a separatory funnel in biodiesel production?",
+    "options": [
+      "To remove glycerin from biodiesel",
+      "To remove methanol vapors",
+      "To mix alcohol with catalyst",
+      "To measure cetane number",
+      "To assess cloud point"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What type of catalyst causes saponification issues during transesterification?",
+    "options": [
+      "Homogeneous acid catalyst",
+      "Heterogeneous catalyst",
+      "Polymer-based catalyst",
+      "Homogeneous alkaline catalyst",
+      "Enzymatic catalyst"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which of the following properties makes biodiesel safer to handle and store compared to petro-diesel?",
+    "options": [
+      "Higher flash point",
+      "Higher sulfur content",
+      "Lower cloud point",
+      "Lower cetane number",
+      "Lower kinematic viscosity"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which parameter indicates the lowest temperature at which biodiesel vapors can ignite in air?",
+    "options": [
+      "Pour point",
+      "Cetane number",
+      "Flash point",
+      "Sulfur level",
+      "Kinematic viscosity"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the effect of increasing the carbon chain length of alcohol used in transesterification?",
+    "options": [
+      "Decreased solubility in water",
+      "Lower viscosity",
+      "Increased sulfur content",
+      "Increased cloud point",
+      "Decreased flash point"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which molecular property distinguishes saturated fats from unsaturated fats?",
+    "options": [
+      "Higher solubility in water",
+      "Presence of carboxyl group",
+      "Shorter carbon chain length",
+      "Presence of carbon-carbon double bonds",
+      "Stronger hydrogen bonding"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which alcohol is classified as a triol and is a by-product in biodiesel production?",
+    "options": [
+      "Propanol",
+      "Ethanol",
+      "Glycerin",
+      "Methanol",
+      "Butanol"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the main reason for titration in biodiesel production from waste cooking oil?",
+    "options": [
+      "To assess glycerin concentration",
+      "To measure alcohol purity",
+      "To evaluate cetane number",
+      "To quantify sulfur levels",
+      "To determine free fatty acid content"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which biodiesel property affects cold weather performance?",
+    "options": [
+      "Viscosity",
+      "Melting point",
+      "Triple point",
+      "Cloud point",
+      "Sulfur content"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which operational factor is crucial to prevent incomplete transesterification and ensure high biodiesel yield?",
+    "options": [
+      "Adding excess glycerin at the start",
+      "Minimizing residence time in the reactor",
+      "Reducing alcohol purity to save costs",
+      "Avoiding any catalyst usage",
+      "Maintaining sufficient reaction temperature and mixing intensity"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What type of biodiesel blend is designated as B20?",
+    "options": [
+      "80% petro-diesel",
+      "80% biodiesel",
+      "2% biodiesel",
+      "22% biodiesel",
+      "20% petro-diesel"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which heterogeneous catalyst is commonly used due to its low cost and easy separation?",
+    "options": [
+      "Sodium hydroxide (NaOH)",
+      "Calcium oxide (CaO)",
+      "Lithium hydroxide (LiOH)",
+      "Potassium hydroxide (KOH)",
+      "Sulfuric acid (H2SO4)"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the typical alcohol to oil molar ratio used in transesterification to favor biodiesel formation by pushing the equilibrium to the right?",
+    "options": [
+      "6:1",
+      "2:1",
+      "1:1",
+      "1:2",
+      "3:1"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which type of catalyst allows for easier separation and reuse after transesterification?",
+    "options": [
+      "Enzyme catalyst",
+      "Heterogeneous catalyst",
+      "Homogeneous catalyst",
+      "Alkali catalyst",
+      "Acid catalyst"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which gas was especially absent in Earth’s early atmosphere before the rise of photosynthetic organisms?",
+    "options": [
+      "Water vapor",
+      "Carbon dioxide",
+      "Oxygen",
+      "Methane",
+      "Nitrogen"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which ancient organisms were responsible for the Great Oxygenation Event approximately 2.4 billion years ago?",
+    "options": [
+      "Red algae",
+      "Golden algae",
+      "Cyanobacteria",
+      "Green algae",
+      "Diatoms"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which feature is not an evidence supporting the endosymbiotic theory?",
+    "options": [
+      "Double membranes of mitochondria",
+      "Phylogenetic relation to cyanobacteria",
+      "Own DNA in mitochondria",
+      "Ribosomes identical to plant ribosomes",
+      "Own DNA in chloroplasts"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which type of algae has a color pigment enabling them to survive at greater ocean depths?",
+    "options": [
+      "Red algae",
+      "Diatoms",
+      "Golden algae",
+      "Brown algae",
+      "Green algae"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What distinguishes green algae from other algae types in terms of classification?",
+    "options": [
+      "They cannot store starch",
+      "They are classified in the plant kingdom",
+      "They are heterotrophs",
+      "They exclusively live in seawater",
+      "They lack photosynthetic ability"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which microalgae type can switch from autotrophic to heterotrophic mode when nutrients are scarce?",
+    "options": [
+      "Diatoms",
+      "Cyanobacteria",
+      "Green algae",
+      "Golden algae",
+      "Red algae"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which microalgae are also known as cyanobacteria?",
+    "options": [
+      "Golden algae",
+      "Diatoms",
+      "Blue-green algae",
+      "Red algae",
+      "Green algae"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "In Mars colonization strategies, what is the primary purpose of using algae?",
+    "options": [
+      "To produce oxygen via photosynthesis",
+      "To act as insulation materials",
+      "To support rocket fuel synthesis",
+      "To filter Martian soil contaminants",
+      "To generate methane for energy"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which is the correct sequence in a proposed Mars colonization plan involving algae?",
+    "options": [
+      "Plant crops → Introduce algae → Release CO₂",
+      "Harvest algae → Release CO₂ → Plant crops",
+      "Release CO₂ → Introduce algae → Plant crops",
+      "Release oxygen → Plant crops → Add CO₂",
+      "Introduce algae → Plant crops → Release CO₂"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the most critical challenge in using algae for large-scale atmospheric conversion on Mars?",
+    "options": [
+      "Harsh environmental conditions and resource limitations",
+      "Toxicity of algae to Martian soil",
+      "Competition with Martian native flora",
+      "Lack of photosynthetic capability of algae",
+      "Inability of algae to reproduce on Mars"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which characteristic is typical of macroalgae?",
+    "options": [
+      "Single-celled organisms with rigid silica shells",
+      "Unicellular life forms switching to heterotrophy",
+      "Organisms classified as cyanobacteria",
+      "Species classified under animal kingdom",
+      "Multicellular organisms growing in salt or fresh water"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which algae type forms underwater forests and can grow up to 60 meters in length?",
+    "options": [
+      "Golden algae",
+      "Red algae",
+      "Diatoms",
+      "Green algae",
+      "Brown algae"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Why can red algae live at greater depths compared to green and brown algae?",
+    "options": [
+      "They form symbiotic relations with diatoms",
+      "They grow exclusively on rocks",
+      "They have thicker cell walls",
+      "They utilize heterotrophic feeding",
+      "Their pigments absorb blue light effectively"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which of the following is not a microalgae group?",
+    "options": [
+      "Golden algae",
+      "Microalgae",
+      "Brown algae",
+      "Diatoms",
+      "Blue-green algae"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which method uses raceway open ponds to cultivate algae?",
+    "options": [
+      "Closed photobioreactors",
+      "Paddlewheel circulation systems",
+      "Vertical tubular reactors",
+      "Biofilm reactors",
+      "Sealed anaerobic digesters"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is a major disadvantage of open pond systems?",
+    "options": [
+      "Inability to supply CO₂",
+      "Requires continuous night-time operation",
+      "Excessive energy consumption",
+      "High risk of contamination and water loss by evaporation",
+      "Restricted to heterotrophic algae only"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the function of the degassing zone in closed photobioreactors?",
+    "options": [
+      "Removing heavy metals from biomass",
+      "Increasing light scattering inside tubes",
+      "Enhancing carbon fixation rate",
+      "Removing excess oxygen produced during photosynthesis",
+      "Filtering nutrient residues"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which system problem is not solved by closed photobioreactors?",
+    "options": [
+      "Light limitation due to cell concentration",
+      "Maintaining optimal growth conditions",
+      "Water evaporation losses",
+      "Preventing biomass settling",
+      "Contamination from the environment"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the primary purpose of paddlewheel stirring in open ponds?",
+    "options": [
+      "To harvest algae biomass continuously",
+      "To maintain high temperatures",
+      "To oxygenate the water",
+      "To remove excess CO₂",
+      "To circulate nutrients and algal cells for better light exposure"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What is the main drawback of simple mechanical pressing for algae oil extraction?",
+    "options": [
+      "Generation of toxic residues",
+      "High thermal energy consumption",
+      "Low lipid recovery efficiency",
+      "Damage to algal proteins",
+      "Requirement of organic solvents"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Why is hexane effective in algae oil extraction?",
+    "options": [
+      "It enhances protein extraction",
+      "It reduces algae cell size",
+      "It dissolves lipids without mixing with water",
+      "It neutralizes excess CO₂",
+      "It acts as a nutrient for algae"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which statement about biodiesel production from algae oil is correct?",
+    "options": [
+      "Biodiesel from algae oil emits more CO₂ than fossil diesel",
+      "Algae oil requires genetically modified enzymes for biodiesel production",
+      "Algae oil can be converted into biodiesel similarly to vegetable oils",
+      "The process only works in anaerobic conditions",
+      "It cannot use transesterification"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which organism is considered promising for biodiesel production due to its high lipid productivity?",
+    "options": [
+      "Yarrowia lipolytica",
+      "Chlorella vulgaris",
+      "Spirulina platensis",
+      "Saccharomyces cerevisiae",
+      "Escherichia coli"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which is a key benefit of cellulosic ethanol compared to conventional ethanol?",
+    "options": [
+      "Does not compete with food industry",
+      "Requires no fermentation",
+      "Produces biogas as a main product",
+      "Direct conversion into hydrogen",
+      "Higher calorific value"
+    ],
+    "answer": 0,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "What does the Kardashev scale measure?",
+    "options": [
+      "The lipid productivity of microorganisms",
+      "A civilization’s energy utilization capacity",
+      "The flammability index of biodiesel",
+      "The calorific value of biofuels",
+      "The CO₂ capture efficiency of biohydrogen plants"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which one below is the best definition for type one civilization?",
+    "options": [
+      "A civilization which is able to use the entire energy in its solar system",
+      "A civilization which is able to use kinds of renewable energy in its home planet",
+      "A civilization which is able to use all the fossil fuels in its home planet",
+      "A civilization which is able to use the entire energy in its home planet",
+      "A civilization which is able to use all kinds of nuclear energy in its home planet"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which one below is wrong?",
+    "options": [
+      "A type III civilization is able to travel through its entire galaxy",
+      "A type I civilization is able to travel between stars",
+      "A type II civilization is able to travel through all the planets in its solar system",
+      "A type I civilization can control weather events and earthquakes in its home planet",
+      "A type II civilization may resemble the Federation of Planets seen on Star Trek"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "course": "ESEN340",
+    "chapter": "Quiz 2",
+    "question": "Which one below is not among the evidence of our civilization going towards type I civilization?",
+    "options": [
+      "English being used as the common language",
+      "Global Terrorism",
+      "European Union",
+      "FIFA World Cup.",
+      "Internet"
+    ],
+    "answer": 1,
     "hint": ""
   }
 ];

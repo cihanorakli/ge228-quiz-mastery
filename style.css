@@ -295,3 +295,51 @@ body {
     #question-text { font-size: 1.25rem; }
     .option-btn { padding: 14px 18px; font-size: 1rem; }
 }
+
+/* Course Tabs Switcher */
+.course-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 28px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 6px;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course-tab {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    flex: 1;
+}
+
+.course-tab.active {
+    background: var(--primary);
+    color: var(--text-white);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.course-tab:hover:not(.active) {
+    color: var(--text-white);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.course-grid {
+    display: none;
+}
+
+.course-grid.active {
+    display: block;
+}
+

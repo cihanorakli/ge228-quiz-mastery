@@ -1,4 +1,5 @@
 // Quiz Mastery Logic - Cihan Oraklı Hayratı
+let activeCourse = 'ge228';
 let allBatches = [];
 let currentBatchIndex = 0;
 let queue = []; 
@@ -22,6 +23,8 @@ const correctCounterEl = document.getElementById('correct-counter');
 const optionsContainer = document.getElementById('options-container');
 const questionText = document.getElementById('question-text');
 const nextBtn = document.getElementById('next-btn');
+const welcomeSubtitle = document.getElementById('welcome-subtitle');
+const welcomeQCount = document.getElementById('welcome-q-count');
 
 // Batch Elements
 const batchTitle = document.getElementById('batch-title');
@@ -40,17 +43,46 @@ document.getElementById('restart-btn').addEventListener('click', () => location.
 document.getElementById('next-batch-btn').addEventListener('click', startNextBatch);
 nextBtn.addEventListener('click', nextQuestion);
 
+// Course switching logic
+document.querySelectorAll('.course-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.course-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        
+        activeCourse = tab.getAttribute('data-course');
+        
+        // Toggle selection grids
+        document.querySelectorAll('.course-grid').forEach(grid => grid.classList.remove('active'));
+        document.getElementById(`${activeCourse}-grid`).classList.add('active');
+        
+        // Update welcome UI text
+        if (activeCourse === 'ge228') {
+            welcomeSubtitle.innerText = "GE 228'den 100 almayan kalmasın.";
+            welcomeQCount.innerHTML = `<i class="icon-q"></i> 118 Soru`;
+        } else {
+            welcomeSubtitle.innerText = "ESEN 340'tan 100 almayan kalmasın.";
+            welcomeQCount.innerHTML = `<i class="icon-q"></i> 50 Soru`;
+        }
+    });
+});
+
 function startQuiz(mode, chapterName = null) {
     let filtered = [];
     let batchSize = 20;
 
+    // Filter questions by active course
+    const courseQuestions = questionsData.filter(q => {
+        const qCourse = q.course ? q.course.toLowerCase() : 'ge228';
+        return qCourse === activeCourse;
+    });
+
     if (mode === 'chapter') {
-        filtered = questionsData.filter(q => q.chapter === chapterName);
+        filtered = courseQuestions.filter(q => q.chapter === chapterName);
         batchSize = filtered.length; 
     } else {
         // Mixed mode
-        filtered = [...questionsData];
-        batchSize = 40;
+        filtered = [...courseQuestions];
+        batchSize = Math.min(40, filtered.length);
     }
 
     shuffleArray(filtered);

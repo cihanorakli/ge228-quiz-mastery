@@ -19,22 +19,34 @@
         <!-- Start Screen -->
         <section id="start-screen" class="screen active">
             <div class="glass-card text-center">
+                <div class="course-tabs">
+                    <button class="course-tab active" data-course="ge228">GE 228</button>
+                    <button class="course-tab" data-course="esen340">ESEN 340</button>
+                </div>
                 <h1 class="title">Cihan Oraklı Hayratı</h1>
-                <p class="subtitle">GE 228'den 100 almayan kalmasın.</p>
+                <p class="subtitle" id="welcome-subtitle">GE 228'den 100 almayan kalmasın.</p>
                 <div class="info-badges">
-                    <span class="badge"><i class="icon-q"></i> 118 Soru</span>
+                    <span class="badge" id="welcome-q-count"><i class="icon-q"></i> 118 Soru</span>
                     <span class="badge"><i class="icon-stats"></i> Mastery Modu</span>
                 </div>
-                <div class="selection-grid">
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 7">Ch 7 (6 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 8">Ch 8 (25 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-A">Ch 9-A (8 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-B">Ch 9-B (13 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 10">Ch 10 (18 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 11">Ch 11 (17 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 12">Ch 12 (21 Soru)</button>
-                    <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 13">Ch 13 (10 Soru)</button>
-                    <button class="btn btn-primary btn-full" data-mode="mixed">Karışık (40 Soru Paketleri)</button>
+                <div id="ge228-grid" class="course-grid active">
+                    <div class="selection-grid">
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 7">Ch 7 (6 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 8">Ch 8 (25 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-A">Ch 9-A (8 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-B">Ch 9-B (13 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 10">Ch 10 (18 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 11">Ch 11 (17 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 12">Ch 12 (21 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 13">Ch 13 (10 Soru)</button>
+                        <button class="btn btn-primary btn-full" data-mode="mixed">Karışık (40 Soru Paketleri)</button>
+                    </div>
+                </div>
+                <div id="esen340-grid" class="course-grid">
+                    <div class="selection-grid">
+                        <button class="btn btn-category btn-full" data-mode="chapter" data-chapter="Quiz 2">Quiz 2 (50 Soru)</button>
+                        <button class="btn btn-primary btn-full" data-mode="mixed">Karışık (40 Soru Paketleri)</button>
+                    </div>
                 </div>
             </div>
         </section>
