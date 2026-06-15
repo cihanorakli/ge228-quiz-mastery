@@ -1294,5 +1294,140 @@ const questionsData = [
     ],
     "answer": 2,
     "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "It is the largest and most populous Spanish-speaking city in the world. Can you name this city, which is located outside the territory of Spain?",
+    "options": [
+      "Buenos Aires",
+      "Rio de Janerio",
+      "Sao Paulo",
+      "Ciudad de Mexico",
+      "Madrid de Castilla"
+    ],
+    "answer": 3,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "Of the four states that are not currently full members of the UN, two are recognized by the largest number of states (157 members and 121 members, respectively), and one by 46 members. Two of these states emerged in the international community in the 1970s with the aim of becoming independent states, and one of them was admitted to the UN as an observer state in 2012. The other state has been a member of the continental union of states since its foundation. Which of these four countries has the 3rd highest number of government recognitions?",
+    "options": [
+      "Abkhazia Republic (de facto) (= Abhazya)",
+      "Kosovo Republic (= Kosova)",
+      "Sahrawi Arab Democratic Republic (= Sahra)",
+      "Palestine (Devlet-i Filastîn) (= Filistin)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "Montesquieu (1748) opposed the slave trade. The 'Friends of the Black Association' was founded in Paris. The slave trade was banned by the Revolution (Danton, 1794) and this prohibition was included in the Declaration of Human Rights. The first Black republic was established in the part of the Caribbean island of Hispaniola held by France, which was inhabited by Black slaves. This state symbolized the freedom, equality and fraternity of the French Revolution in the New World. Can you guess which country this is? (Hint: it is the largest French-speaking country in the Americas.)",
+    "options": [
+      "Dominican Republic",
+      "Haiti",
+      "Guadeloupe",
+      "Jamaica",
+      "Liberia",
+      "French Guyana"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "The use of national state flags is a modern practice. Initially applied to ships for ease of identification on foreign voyages, the practice of a single (uniform) flag was adopted for nation states in the modern era. In the Caucasus and southern Mediterranean regions, which were influenced by Ottoman and Turkish history, newly founded states adopted the crescent and star on their flags. One country chose the Ottoman naval and maritime flag as its national flag after liberating itself from French occupation. Which country adopted this red and white flag bearing a red crescent and star as its national flag?",
+    "options": [
+      "Malaysia",
+      "Algeria",
+      "Azerbaijan",
+      "Libya",
+      "Tunisia",
+      "Lebanon"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "47 countries are members of the Council of Europe. Russia and Turkey are Eurasian countries and members of the Council of Europe. Cyprus, Georgia, Azerbaijan and Armenia, which are physically located entirely in Asia, are members of the Council of Europe. One state is not included in the European system because it has not abolished the death penalty, which makes the right to life questionable. Which European country is still not a member of the Council of Europe?",
+    "options": [
+      "United Kingdom",
+      "Montenegro",
+      "Belarus",
+      "Switzerland",
+      "Iceland"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "With a population of almost two million, it is the second largest German-speaking city in the world after Berlin. What is the name of this city that is not in Germany?",
+    "options": [
+      "Danzig (Gdansk)",
+      "Cologne (Köln)",
+      "Vienna",
+      "Wraclaw (Breslau)",
+      "Stettin (Szczecin)"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "The name of one of the ethnic peoples of the Caucasus is asked for here. It could be said that their music, musical instruments, dances, songs, folk festivals, beliefs, clothing and costumes are all very remarkable, striking and lively. Unlike their neighbours, they speak an Iranian language. This nation comprises 700 thousand people, but nearly half of them live in diaspora communities outside the Caucasus. More than 20,000 people live in Turkey. Half of the population is Christian Orthodox, having converted their folk customs into Christian rituals, while a quarter of the population practises a form of ancient Scythian mythology. Historically, they consider their ancestors to be Alan, Scythian and Sarmatian.",
+    "options": [
+      "Abkhazian",
+      "Georgian",
+      "Avar",
+      "Megrel-Svan",
+      "Osset",
+      "Chechen",
+      "Kalmyk"
+    ],
+    "answer": 4,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "Which island has the largest population? The largest island is Greenland, covering 2.1 million square kilometres. Australia is not included in the list of islands because it is a continent, covering 7.6 million square kilometres. The ten largest islands in the world are very sparsely populated, with several located at the poles and two in remote tropical areas. The top ten islands by population and area are: Honshu (Japan) is the second most populous and the seventh largest; Great Britain is the third most populous and the ninth largest; Sumatra (Indonesia) is the fifth most populous and the sixth largest; and Madagascar is the ninth most populous and the fourth largest. Although it is smaller than Greece, Syria or Tunisia, Madagascar is densely populated, with one million people living in every thousand square kilometres; it is more populous than Japan or Mexico. is the most populous island in the world? The largest island in the world is Greenland, with 2.1 million sq. km. (Australia is not included in the island list because it is continental with an area of 7.6 million square km.) Of the 10 islands that are the largest in the world, they are very poorly populated, with several being at the poles and two in the remote tropical area. Those in the top ten both with its population and large area: Honshu (Japan) 2nd crowd (populous) and 7th largest; Great Britain 3rd populous and 9th largest; Sumatra (Indonesia) 5th populous and 6th largest; Madagascar is 9th populous and 4th largest. Although the island is smaller in size than Greece, Syria or Tunisia, it is densely populated (one million people live in every thousand square km area); it is a more populous island than Japan or Mexico.",
+    "options": [
+      "Greenland",
+      "Britain",
+      "Java",
+      "Australia",
+      "Sumatra",
+      "Honshu"
+    ],
+    "answer": 2,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "In a European Union member state, a language derived from Arabic with many Italian words is spoken. Most people speak Italian and English. This society writes the Semitic language using the Latin alphabet and is entirely Catholic. Which country on the European continent is the southernmost where snow, storms and fog are never seen?",
+    "options": [
+      "Portugal",
+      "Malta",
+      "Sicily",
+      "Gibraltar (Cebelitarık)",
+      "Monaco",
+      "Pantelleria"
+    ],
+    "answer": 1,
+    "hint": ""
+  },
+  {
+    "chapter": "Chapter 13",
+    "question": "“The United Nations Organization (UN)” is the largest and most inclusive intergovernmental organization among international organizations. Which of the following is an organization not affiliated with or related to the UN? (Three of them are affiliated with the United Nations Organization, such as UNICEF.)",
+    "options": [
+      "Food and Agriculture Organization (FAO)",
+      "World Health Organization (WHO)",
+      "North Atlantic Treaty Organization (NATO)",
+      "International Labour Organization (ILO)",
+      "International Civil Aviation Organization (ICAO)"
+    ],
+    "answer": 2,
+    "hint": ""
   }
 ];
