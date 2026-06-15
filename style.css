@@ -343,3 +343,19 @@ body {
     display: block;
 }
 
+.grid-section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #c4b5fd;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 28px;
+    border-left: 3px solid var(--primary);
+    padding-left: 10px;
+}
+
+.grid-section-title:first-of-type {
+    margin-top: 0;
+}
+
+

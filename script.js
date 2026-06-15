@@ -36,7 +36,8 @@ document.querySelectorAll('.btn-category, .btn-primary[data-mode]').forEach(btn 
     btn.addEventListener('click', () => {
         const mode = btn.getAttribute('data-mode');
         const chapter = btn.getAttribute('data-chapter');
-        startQuiz(mode, chapter);
+        const exam = btn.getAttribute('data-exam');
+        startQuiz(mode, chapter, exam);
     });
 });
 document.getElementById('restart-btn').addEventListener('click', () => location.reload());
@@ -58,7 +59,7 @@ document.querySelectorAll('.course-tab').forEach(tab => {
         // Update welcome UI text
         if (activeCourse === 'ge228') {
             welcomeSubtitle.innerText = "GE 228'den 100 almayan kalmasın.";
-            welcomeQCount.innerHTML = `<i class="icon-q"></i> 118 Soru`;
+            welcomeQCount.innerHTML = `<i class="icon-q"></i> 227 Soru`;
         } else {
             welcomeSubtitle.innerText = "ESEN 340'tan 100 almayan kalmasın.";
             welcomeQCount.innerHTML = `<i class="icon-q"></i> 50 Soru`;
@@ -66,7 +67,7 @@ document.querySelectorAll('.course-tab').forEach(tab => {
     });
 });
 
-function startQuiz(mode, chapterName = null) {
+function startQuiz(mode, chapterName = null, examType = null) {
     let filtered = [];
     let batchSize = 20;
 
@@ -76,12 +77,21 @@ function startQuiz(mode, chapterName = null) {
         return qCourse === activeCourse;
     });
 
+    // Filter by exam type (midterm/final) if course is GE 228
+    let examQuestions = [...courseQuestions];
+    if (activeCourse === 'ge228' && examType) {
+        examQuestions = courseQuestions.filter(q => {
+            const qExam = q.exam ? q.exam.toLowerCase() : 'final';
+            return qExam === examType.toLowerCase();
+        });
+    }
+
     if (mode === 'chapter') {
-        filtered = courseQuestions.filter(q => q.chapter === chapterName);
+        filtered = examQuestions.filter(q => q.chapter === chapterName);
         batchSize = filtered.length; 
     } else {
         // Mixed mode
-        filtered = [...courseQuestions];
+        filtered = [...examQuestions];
         batchSize = Math.min(40, filtered.length);
     }
 
