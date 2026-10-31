@@ -11,6 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Vercel Analytics -->
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 
 <body>
@@ -19,13 +24,60 @@
         <!-- Start Screen -->
         <section id="start-screen" class="screen active">
             <div class="glass-card text-center">
+                <div class="course-tabs">
+                    <button class="course-tab active" data-course="ge228">GE 228</button>
+                    <button class="course-tab" data-course="esen340">ESEN 340</button>
+                    <button class="course-tab" data-course="engr400">ENGR 400</button>
+                </div>
                 <h1 class="title">Cihan Oraklı Hayratı</h1>
-                <p class="subtitle">GE 228'den 100 almayan kalmasın.</p>
+                <p class="subtitle" id="welcome-subtitle">GE 228'den 100 almayan kalmasın.</p>
                 <div class="info-badges">
-                    <span class="badge"><i class="icon-q"></i> 109 Soru</span>
+                    <span class="badge" id="welcome-q-count"><i class="icon-q"></i> 227 Soru</span>
                     <span class="badge"><i class="icon-stats"></i> Mastery Modu</span>
                 </div>
-                <button id="start-btn" class="btn btn-primary">Başlat</button>
+                <div id="ge228-grid" class="course-grid active">
+                    <h3 class="grid-section-title">Vize Sınavı (Midterm)</h3>
+                    <div class="selection-grid">
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 1" data-exam="midterm">Ch 1 (17 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 2" data-exam="midterm">Ch 2 (22 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 3" data-exam="midterm">Ch 3 (25 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 4" data-exam="midterm">Ch 4 (20 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 5" data-exam="midterm">Ch 5 (20 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 6" data-exam="midterm">Ch 6 (5 Soru)</button>
+                        <button class="btn btn-primary btn-full" data-mode="mixed" data-exam="midterm">Vize Karışık (40 Soru)</button>
+                    </div>
+
+                    <h3 class="grid-section-title">Final Sınavı</h3>
+                    <div class="selection-grid">
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 7" data-exam="final">Ch 7 (6 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 8" data-exam="final">Ch 8 (25 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-A" data-exam="final">Ch 9-A (8 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 9-B" data-exam="final">Ch 9-B (13 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 10" data-exam="final">Ch 10 (18 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 11" data-exam="final">Ch 11 (17 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 12" data-exam="final">Ch 12 (21 Soru)</button>
+                        <button class="btn btn-category" data-mode="chapter" data-chapter="Chapter 13" data-exam="final">Ch 13 (10 Soru)</button>
+                        <button class="btn btn-primary btn-full" data-mode="mixed" data-exam="final">Final Karışık (40 Soru)</button>
+                    </div>
+                </div>
+                <div id="esen340-grid" class="course-grid">
+                    <div class="selection-grid">
+                        <button class="btn btn-category btn-full" data-mode="chapter" data-chapter="Quiz 2">Quiz 2 (50 Soru)</button>
+                        <button class="btn btn-primary btn-full" data-mode="mixed">Karışık (40 Soru Paketleri)</button>
+                    </div>
+                </div>
+                <div id="engr400-grid" class="course-grid">
+                    <h3 class="grid-section-title">Çıkmış Sorular</h3>
+                    <div class="selection-grid">
+                        <button id="engr400-past-exam-btn" class="btn btn-category btn-full" data-mode="source" data-source-type="past_exam" disabled>Çıkmış Sorular (46 Soru)</button>
+                    </div>
+                    <h3 class="grid-section-title">AI Üretimi Sorular</h3>
+                    <div class="selection-grid">
+                        <button id="engr400-ai-btn" class="btn btn-category btn-full" data-mode="source" data-source-type="ai_authored" disabled>AI Üretimi Sorular (47 Soru)</button>
+                        <button id="engr400-start-btn" class="btn btn-primary btn-full" data-mode="mixed" disabled>Hepsi Karışık (40 Soru Paketleri)</button>
+                    </div>
+                    <p id="engr400-status" class="course-status">Sorular yakında eklenecek.</p>
+                </div>
             </div>
         </section>
 
@@ -37,6 +89,7 @@
                     <span id="progress-text">0 / 0</span>
                 </div>
                 <div class="stats">
+                    <span id="correct-counter" style="color: var(--success); margin-right: 15px;">Doğru: 0</span>
                     <span id="wrong-counter">Yanlış: 0</span>
                 </div>
             </div>
@@ -73,7 +126,7 @@
                 <p class="subtitle">Tüm soruları başarıyla tamamladın ve hepsini öğrendin.</p>
                 <div class="final-stats">
                     <div class="stat-item">
-                        <span class="stat-value" id="final-total">109</span>
+                        <span class="stat-value" id="final-total">118</span>
                         <span class="stat-label">Toplam Soru</span>
                     </div>
                     <div class="stat-item">
@@ -87,6 +140,7 @@
     </div>
 
     <script src="questions.js"></script>
+    <script src="engr400-questions.js"></script>
     <script src="script.js"></script>
 </body>
 
