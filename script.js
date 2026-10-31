@@ -1,4 +1,4 @@
-// Quiz Mastery Logic - Cihan Oraklı Hayratı
+// Quiz Mastery Logic
 let activeCourse = 'ge228';
 let allBatches = [];
 let currentBatchIndex = 0;
