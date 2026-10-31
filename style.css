@@ -29,6 +29,18 @@ body {
     align-items: center;
 }
 
+.site-credit {
+    position: fixed;
+    right: 20px;
+    bottom: 16px;
+    z-index: 1;
+    color: rgba(248, 250, 252, 0.45);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    pointer-events: none;
+}
+
 .bg-gradient {
     position: fixed;
     top: 0;
