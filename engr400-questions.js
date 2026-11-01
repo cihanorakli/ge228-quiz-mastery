@@ -1,4 +1,4 @@
-// ENGR 400 vize soru bankası. Kaynak: ENGR400_Vize_42_Soru_Dogrulanmis.json
+// ENGR 400 vize soru bankası. Kaynaklar: ENGR400_Vize_42_Soru_Dogrulanmis.json ve ENGR400_Lecture_1_5_25_Yeni_Vize_Sorusu.json
 const engr400QuestionsData = 
 [
   {
@@ -503,6 +503,306 @@ const engr400QuestionsData =
     ],
     "answer": 3,
     "hint": "Gizlilik genel kuraldır fakat yaşam/güvenlik riski ve bildirime ilişkin etik/hukuki istisnalar göz önünde tutulur.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which one below is not among the main goals of teaching engineering ethics?",
+    "options": [
+      "To provide knowledge of professional codes and standards",
+      "To increase awareness of ethical issues",
+      "To guarantee that no engineer will ever make an unethical decision",
+      "To provide training in ethical decision-making"
+    ],
+    "answer": 2,
+    "hint": "Ders notu eğitim hedefleri arasında bilgi, farkındalık, karar verme ve etik davranış motivasyonunu sayıyor; kesin garanti vermiyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which characteristic of a profession is illustrated by control over professional titles and licensing for entry into practice?",
+    "options": [
+      "The absence of ethical regulation",
+      "Control over admission to the profession",
+      "Freedom from professional education",
+      "The lack of specialized knowledge"
+    ],
+    "answer": 1,
+    "hint": "Mesleğin özellikleri arasında meslek unvanı ve lisanslama yoluyla mesleğe kabulün kontrol edilmesi bulunuyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "According to the definition of a profession discussed by M. Davis, which statement is correct?",
+    "options": [
+      "Members of a profession voluntarily serve a moral ideal beyond what law and markets alone require",
+      "A profession is defined only by the income of a single worker",
+      "Professional activities have no public purpose",
+      "An occupation becomes a profession whenever it is legally permitted"
+    ],
+    "answer": 0,
+    "hint": "M. Davis tanımı bir topluluk, gönüllü katılım ve yasanın ya da piyasanın ötesinde ahlaki bir ideale hizmet etmeyi vurguluyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Choose the correct statement about law and engineering ethics.",
+    "options": [
+      "If a design satisfies the law, there can be no ethical problem",
+      "Engineers may ignore laws whenever they disagree with them",
+      "Engineering ethics is entirely independent of public safety",
+      "Technological developments can move faster than laws, so legal compliance alone may be insufficient"
+    ],
+    "answer": 3,
+    "hint": "Ders notu yasa ile etiğin aynı olmadığını ve teknolojik gelişmelerin yasaların önüne geçebileceğini vurguluyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In the chicken-coop design example, which design consideration illustrates a moral value?",
+    "options": [
+      "Choosing the cheapest material regardless of safety",
+      "Ignoring the needs of local users",
+      "Providing a safe floor for barefoot villagers and humane conditions for animals",
+      "Maximizing egg production without any other consideration"
+    ],
+    "answer": 2,
+    "hint": "Tavuk kümesi örneğinde insanların güvenliği, hayvanlara saygı ve çevre koruması tasarımın etik parçalarıdır.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which one is a micro issue in the Ford Explorer and Bridgestone/Firestone tire example?",
+    "options": [
+      "The general environmental impact of SUVs",
+      "Society-wide concerns about fuel consumption",
+      "The general debate about SUV rollover risks",
+      "A flawed tire design and poor quality control by a manufacturer"
+    ],
+    "answer": 3,
+    "hint": "Notta kusurlu lastik tasarımı ve üretici kalite kontrolü micro; SUV kirliliği ve genel rollover sorunu macro olarak ayrılıyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which statement best describes groupthink as a reason for moral problems?",
+    "options": [
+      "A tendency to accept group decisions at the expense of critical thinking",
+      "The inability of two departments to exchange information",
+      "A technical error caused only by insufficient mathematics",
+      "A legal requirement to reach unanimous decisions"
+    ],
+    "answer": 0,
+    "hint": "Groupthink eleştirel düşünme pahasına grubun kararlarına uyumu ifade eder; departmanlar arası iletişim kopukluğu silo mentality’dir.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In the flashlight-bulb example, which conflict creates an ethical dilemma?",
+    "options": [
+      "Environmental protection versus technical competence",
+      "The firm’s interest in repeat sales versus product quality and public welfare",
+      "Engineers versus safety inspectors over legal permits",
+      "Public safety versus the confidentiality of medical records"
+    ],
+    "answer": 1,
+    "hint": "Daha uzun ömürlü ampulü kullanmamak şirketin tekrar satış çıkarına yararken ürün kalitesi, tüketici refahı ve çevreyle çatışıyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In the Citicorp Tower case, what important construction detail did LeMessurier discover after consulting his colleagues?",
+    "options": [
+      "The joints were not welded as he had assumed",
+      "The building had no structural braces",
+      "The building’s columns were placed only at the corners",
+      "All wind-related calculations had already been independently verified"
+    ],
+    "answer": 0,
+    "hint": "LeMessurier bağlantıların kaynaklı olduğunu sanıyordu; meslektaşlarından kaynaklı olmadıklarını öğrendi.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which statement about moral choices and ethical dilemmas is consistent with the lecture?",
+    "options": [
+      "Every moral choice necessarily involves conflicting values",
+      "Ethical dilemmas are special cases of moral choices, while many moral choices are straightforward",
+      "Ethical dilemmas are decisions without moral values",
+      "Moral choices are always resolved by obeying a supervisor"
+    ],
+    "answer": 1,
+    "hint": "Lecture 3, etik ikilemlerin moral choices’ın özel bir türü olduğunu, birçok ahlaki seçimin açık ve basit olduğunu söylüyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In resolving an ethical dilemma, which step asks an engineer to clarify what being a faithful employee actually means?",
+    "options": [
+      "Moral imagination",
+      "Being informed about the options",
+      "Conceptual clarity",
+      "Causal responsibility"
+    ],
+    "answer": 2,
+    "hint": "Conceptual clarity kavramları netleştirmedir; üstüne itaatin mi yoksa şirketin uzun vadeli çıkarının mı sadakat anlamına geldiğini sorgular.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "A chemical engineer checks and rechecks whether a company’s discharge violates pollution limits. Which step is being applied?",
+    "options": [
+      "Professional autonomy",
+      "Moral coherence",
+      "Being informed about the options",
+      "Being informed about the facts"
+    ],
+    "answer": 3,
+    "hint": "Kimyasal atık miktarlarını ve hukuka uygunluğunu doğrulamak, olgular hakkında yeterli bilgi edinme adımıdır.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "What design improvement resolved the problem of discarded pull tabs on aluminum beverage cans?",
+    "options": [
+      "A stay-attached opener that remains on the can",
+      "A return to heavier steel cans without openings",
+      "Removal of every opening mechanism",
+      "A requirement that consumers bring separate openers forever"
+    ],
+    "answer": 0,
+    "hint": "Ders notu çözümün kutuya bağlı kalan açma mekanizması olduğunu ve bunun tasarımsal/etik ilerleme sağladığını belirtiyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In the steps for resolving ethical dilemmas, what does being well-reasoned require?",
+    "options": [
+      "Following the option that benefits the employer most",
+      "Making a carefully justified judgment using relevant moral reasons and facts",
+      "Choosing the first solution that appears legal",
+      "Leaving every moral question entirely to the public authorities"
+    ],
+    "answer": 1,
+    "hint": "Well-reasoned aşaması tüm ilgili ahlaki gerekçeler ve olgular üzerinden dikkatle gerekçelendirilmiş karar vermektir.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which one below is not a value emphasized in the NSPE Preamble?",
+    "options": [
+      "Honesty",
+      "Impartiality",
+      "Maximizing an employer’s private profit regardless of public welfare",
+      "Fairness"
+    ],
+    "answer": 2,
+    "hint": "NSPE Preamble dürüstlük, tarafsızlık, adalet ve kamu yararını vurgular; her koşulda özel kârı maksimize etmeyi değil.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which one below is explicitly among the Fundamental Canons of the NSPE Code of Ethics?",
+    "options": [
+      "Engineers shall always accept the lowest possible fee",
+      "Engineers shall place company finances above public safety",
+      "Engineers shall avoid reporting technical errors",
+      "Engineers shall avoid deceptive acts"
+    ],
+    "answer": 3,
+    "hint": "“Avoid deceptive acts” altı temel ilkeden biridir; diğer şıklar kanona aykırıdır.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "What is the main purpose of the NSPE Board of Ethical Review (BER) examples discussed in the course?",
+    "options": [
+      "To illustrate the application of ethical codes to concrete professional situations",
+      "To replace the NSPE Code of Ethics with criminal law",
+      "To provide engineering calculations for commercial projects",
+      "To eliminate the need for moral reasoning"
+    ],
+    "answer": 0,
+    "hint": "BER vakaları NSPE kurallarının somut, gerçek olaylara dayanan örnek durumlara nasıl uygulandığını gösteriyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "An inspector tags unsafe construction equipment, but a manager orders removal of the tag to avoid delay. Which action is most consistent with the ethical discussion?",
+    "options": [
+      "Remove the tag because the manager has financial responsibility",
+      "Maintain the safety objection and act according to the applicable professional code",
+      "Ignore the safety problem unless an accident occurs",
+      "Allow continued operation solely because the defect appears minor"
+    ],
+    "answer": 1,
+    "hint": "Güvenlik etik açıdan önceliklidir; yönetici talebi tehlikeli ekipmanı göz ardı etmeyi haklı çıkarmaz.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which factor contributed to the reversal of the no-launch recommendation before the Challenger disaster?",
+    "options": [
+      "The complete replacement of all O-rings before launch",
+      "A new test proving that cold temperatures could not affect the O-rings",
+      "Management pressure related to schedules, costs, and future contracts",
+      "A decision by R. Boisjoly to withdraw all safety concerns"
+    ],
+    "answer": 2,
+    "hint": "NASA ve Morton Thiokol yönetimindeki takvim, maliyet ve sözleşme baskısı güvenlik uyarılarının önüne geçti.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Under the NSPE Rules of Practice, when may an engineer coordinate and sign documents for an entire project?",
+    "options": [
+      "Whenever the engineer has management approval, regardless of competence",
+      "Only if the engineer personally designed every technical segment",
+      "Even when no qualified engineer reviews specialized segments",
+      "When the technical segments are prepared and signed or sealed by appropriately qualified engineers"
+    ],
+    "answer": 3,
+    "hint": "Tüm projenin koordinasyonu üstlenilebilir; ancak her teknik bölüm kendi yetkin mühendisi tarafından hazırlanıp imzalanmalıdır.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "According to the NSPE Rules of Practice, public technical opinions should be based on which of the following?",
+    "options": [
+      "Knowledge of the facts and competence in the subject matter",
+      "The employer’s preferred marketing message only",
+      "The popularity of the engineer making the statement",
+      "Opinions supplied by interested parties without disclosure"
+    ],
+    "answer": 0,
+    "hint": "Mühendis kamuya teknik görüş açıklarken olguları bilmeli, ilgili teknik alanda yetkin olmalı ve gerektiğinde çıkarları açıklamalıdır.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "According to the NSPE Professional Obligations, what should engineers do when they discover errors in their own work?",
+    "options": [
+      "Conceal the errors to protect the reputation of the employer",
+      "Acknowledge the errors and avoid distorting or altering the facts",
+      "Blame another department before investigating the facts",
+      "Wait until the errors become public knowledge"
+    ],
+    "answer": 1,
+    "hint": "Professional Obligations bölümünde hataları kabul etmek ve gerçekleri çarpıtmamak açıkça yer alıyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which professional obligation is related to protecting the environment for future generations?",
+    "options": [
+      "Maximizing short-term sales",
+      "Avoiding all contact with the public",
+      "Adhering to principles of sustainable development",
+      "Transferring every ethical decision to the employer"
+    ],
+    "answer": 2,
+    "hint": "Mesleki yükümlülüklerde gelecek nesiller için çevrenin korunmasına yönelik sustainable development ilkeleri öneriliyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "Which statement is consistent with the NSPE Professional Obligations concerning engineering work?",
+    "options": [
+      "An engineer may always copy a client’s design without permission",
+      "Credit for an invention always belongs to the employer’s marketing department",
+      "Engineering work created by colleagues may be presented as one’s own",
+      "Engineers should give credit where it is due and respect the proprietary interests of others"
+    ],
+    "answer": 3,
+    "hint": "NSPE III.9 mesleki emeğe hak ettiği itibarı vermeyi ve fikri/mülkiyet haklarına saygıyı öngörüyor.",
+    "origin": "ai_authored"
+  },
+  {
+    "question": "In BER Case 96-4, what should Engineer A recommend concerning software that may fail upcoming safety standards?",
+    "options": [
+      "Report the safety risks honestly and recommend additional testing, despite the possible delay and cost",
+      "Approve deployment immediately because the current standards are satisfied",
+      "Hide the new draft standards until the project is completed",
+      "Make technical safety findings depend entirely on the company’s short-term financial interests"
+    ],
+    "answer": 0,
+    "hint": "Notta mühendisin riskleri ve yeni standartları dürüstçe bildirmesi, ek testleri önermesi, finansal kararları yönetime bırakması bekleniyor.",
     "origin": "ai_authored"
   }
 ]
